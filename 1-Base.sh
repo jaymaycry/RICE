@@ -1,5 +1,6 @@
 #!/bin/bash
 
+git clone https://github.com/UrbanNinja559/RICE.git ~/
 # ----------  File manager ---------- 
 sudo pacman -S pcmanfm
 
