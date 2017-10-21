@@ -23,5 +23,7 @@ yaourt -S compiz
 
 sudo pacman -S git
 
-sudo pacman -S polybar
+sudo pacman -S tint2
+
+yaourt -S albert
 
