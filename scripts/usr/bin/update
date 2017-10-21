@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo pacman -Rscn $(pacman -Qtdq)
+sudo pacman -Sc
+sudo pacman-optimize && sync
+sudo pacman -Syu
+sudo yaourt -Syu
+
+exit 0
