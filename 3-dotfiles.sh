@@ -29,5 +29,8 @@ cp ~/rice/tint2/tint2rc ~/.config/tint2
 
 cp ~/rice/Albert/albert.conf ~/.config/albert/
 
+# Set xfce4-terminal As Nemo Default
+gsettings set org.cinnamon.desktop.default-applications.terminal exec xfce4-terminal
+
 
 echo DONE! Move To 4

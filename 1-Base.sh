@@ -2,7 +2,7 @@
 
 git clone https://github.com/UrbanNinja559/RICE.git ~/
 # ----------  File manager ---------- 
-sudo pacman -S pcmanfm
+sudo pacman -S nautilus
 
 # ---------- Web browser ---------- 
 sudo pacman -S chromium
@@ -26,4 +26,9 @@ sudo pacman -S git
 sudo pacman -S tint2
 
 yaourt -S albert
+
+sudo pacman -S gparted
+sudo pacman -S guake
+
+yaourt -S Xarchiver
 
