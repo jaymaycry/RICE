@@ -3,3 +3,7 @@ need to add guake and nemo to the backup and restore scripts
 auto add fstab
 
 setup usr-dir sync
+
+add deluge config
+
+add conky settings
