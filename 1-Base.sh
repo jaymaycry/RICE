@@ -21,5 +21,7 @@ sudo pacman -S xorg-xrandr
 yaourt -S emerald
 yaourt -S compiz
 
-yaourt -S github-desktop
+sudo pacman -S git
+
+sudo pacman -S polybar
 

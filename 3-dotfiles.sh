@@ -24,4 +24,10 @@ echo ---------- Copying New Compiz Config ----------
 cp ~/rice/compiz/Default.ini ~/.config/compiz-1/compizconfig/
 echo
 
+rm ~/home/subnet/.config/tint2/tint2rc
+cp ~/rice/tint2/tint2rc ~/.config/tint2
+
+cp ~/rice/Albert/albert.conf ~/.config/albert/
+
+
 echo DONE! Move To 4

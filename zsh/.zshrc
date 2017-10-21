@@ -276,7 +276,6 @@ zplug "plugins/gpg-agent", from:oh-my-zsh, if:"which gpg-agent"
 #zplug "plugins/httpie", from:oh-my-zsh, if:"which httpie"
 #zplug "plugins/nanoc", from:oh-my-zsh, if:"which nanoc"
 #zplug "plugins/nmap", from:oh-my-zsh, if:"which nmap"
-zplug "plugins/tmux", from:oh-my-zsh, if:"which tmux"
 #zplug "plugins/vi-mode", from:oh-my-zsh
 
 #zplug "b4b4r07/enhancd", use:init.sh
@@ -303,7 +302,6 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/go", from:oh-my-zsh
 zplug "plugins/golang", from:oh-my-zsh
 zplug "plugins/sudo", from:oh-my-zsh
-zplug "plugins/tmux", from:oh-my-zsh
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
