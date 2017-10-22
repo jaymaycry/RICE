@@ -13,18 +13,24 @@ echo ZSH Config Restored
 cp ~/RICE/Configs/zsh/.zshrc ~/
 
 echo Compiz Config Restored
+mkdir ~/.config/compiz-1
+mkdir ~/.config/compiz-1/compizconfig
 cp ~/RICE/Configs/compiz/Default.ini ~/.config/compiz-1/compizconfig/
 
 echo Tint2 Config Restored
+mkdir ~/.config/tint2
 cp ~/RICE/Configs/tint2/tint2rc ~/.config/tint2/tint2rc
 
 echo Albert Config Restored
+mkdir ~/.config/albert
 cp ~/RICE/Configs/Albert/albert.conf ~/.config/albert/
 
 echo User Dirs Restored
 cp ~/RICE/Configs/Dirs/user-dirs.dirs ~/.config/
 
 echo Fonts Restored
+mkdir ~/.local
+mkdir ~/.local/share
 cp -r ~/RICE/Themes/fonts ~/.local/share/
 
 echo Deluge Config Restored
