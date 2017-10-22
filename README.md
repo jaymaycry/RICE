@@ -28,4 +28,7 @@
 - Xorg
 - Xrandr
 - Xinit
+- Grub Customizer
+- OS Prober
+- Ifplugd
 
