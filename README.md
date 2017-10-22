@@ -1,30 +1,31 @@
-My Personal RICE Setup.
+## Sublime's RICE Setup
+
 
 ![alt text](/IMG/screenshot2.png "Simple.")
 
----------- Programs In Use ----------
+### ---------- Programs In Use ----------
 
-Terminal: xfce4-terminal & Guake
-Notepad: mousepad
-Media Player: VLC
-Web Browser: Chromium
-File Manager: nemo
-Launcher: albert
-Window Manager: Compiz & Emerald
-Office Suite: Libre Office
-Torrent Client: Deluge
-DeskBar: Tint2
-Widgets: Conky
-Archive Manager: XArchiver
-Image Viewer: Feh
+- Terminal: xfce4-terminal & Guake
+- Notepad: mousepad
+- Media Player: VLC
+- Web Browser: Chromium
+- File Manager: nemo
+- Launcher: albert
+- Window Manager: Compiz & Emerald
+- Office Suite: Libre Office
+- Torrent Client: Deluge
+- DeskBar: Tint2
+- Widgets: Conky
+- Archive Manager: XArchiver
+- Image Viewer: Feh
 
 
----------- System Tools ----------
+### ---------- System Tools ----------
 
-Gparted
-NetTools
-Git
-Xorg
-Xrandr
-Xinit
+- Gparted
+- NetTools
+- Git
+- Xorg
+- Xrandr
+- Xinit
 
