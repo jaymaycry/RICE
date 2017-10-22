@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo Cloning RICE Setup To Home
-git clone https://github.com/UrbanNinja559/RICE.git ~/
-
 echo Installing Base Programs
 sudo pacman -S xorg-xrandr vlc feh xorg-xinit xarchiver nemo chromium xfce4-terminal mousepad conky conky-manager libreoffice-fresh guake gparted net-tools tint2 git deluge
 
