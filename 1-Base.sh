@@ -9,6 +9,14 @@ sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad 
 echo Installing Video Drivers
 sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl
 
+git clone https://aur.archlinux.org/package-query.git
+cd package-query
+makepkg -si
+cd ..
+git clone https://aur.archlinux.org/yaourt.git
+cd yaourt
+makepkg -si
+
 echo Installing AUR Packages
 yaourt -S albert compiz emerald xarchiver
 
