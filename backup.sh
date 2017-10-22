@@ -1,22 +1,24 @@
 #!/bin/bash
 
 echo Cursor Themes Backed Up
-cp -r ~/.icons ~/rice/themes/
+cp -r ~/.icons ~/RICE/themes/
 
 echo GTK Themes Backed Up
-cp -r ~/.themes ~/rice/themes/
+cp -r ~/.themes ~/RICE/themes/
 
 echo Xorg Startup Backed Up
-cp ~/.xinitrc ~/rice/Xorg/
+cp ~/.xinitrc ~/RICE/Xorg/
 
 echo ZSH Config Backed Up
-cp ~/.zshrc ~/rice/zsh/
+cp ~/.zshrc ~/RICE/zsh/
 
 echo Compiz Config Backed Up
-cp ~/.config/compiz-1/compizconfig/Default.ini ~/rice/compiz/
+cp ~/.config/compiz-1/compizconfig/Default.ini ~/RICE/compiz/
 
 echo Tint2 Theme Backed Up
-cp ~/.config/tint2/tint2rc ~/rice/tint2/
+cp ~/.config/tint2/tint2rc ~/RICE/tint2/
 
 echo Albert Config Backed Up
-cp ~/.config/albert/albert.conf ~/rice/Albert/
+cp ~/.config/albert/albert.conf ~/RICE/Albert/
+
+cp -r ~/.local/share/fonts ~/RICE/Themes/fonts

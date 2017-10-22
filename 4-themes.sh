@@ -9,11 +9,13 @@ yaourt -S gtk-theme-numix-solarized-git
 
 rm -rf ~/.icons
 mkdir ~/.icons
-cp -r ~/rice/themes/.icons/* ~/.icons
+cp -r ~/RICE/themes/.icons/* ~/.icons
 
 rm -rf ~/.themes
 mkdir ~/.themes
-cp -r ~/rice/themes/.themes/* ~/.themes
+cp -r ~/RICE/themes/.themes/* ~/.themes
+
+cp ~/usr/share/fonts/* ~/RICE/Themes/fonts
 
 sudo pacman -Syu ttf-roboto
 

@@ -7,3 +7,5 @@ setup usr-dir sync
 add deluge config
 
 add conky settings
+
+ad fonts backup and restore

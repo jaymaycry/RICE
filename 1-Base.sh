@@ -40,3 +40,7 @@ sudo pacman -S vlc
 
 #codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
+
+sudo mkdir /mnt/Media
+sudo mkdir /mnt/Media2
+sudo mkdir /mnt/Data
