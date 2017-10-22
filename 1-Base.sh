@@ -4,7 +4,7 @@ echo Setting Locale
 localedef -f UTF-8 -i en_US en_US.UTF-8
 
 echo Installing Base Programs
-sudo pacman -S xorg-xsetroot os-prober xorg-xrandr vlc feh xorg-xinit xarchiver nemo xfce4-terminal mousepad conky conky-manager libreoffice-fresh guake gparted net-tools tint2 git deluge
+sudo pacman -S openssh xorg-xsetroot os-prober xorg-xrandr vlc feh xorg-xinit xarchiver nemo xfce4-terminal mousepad conky conky-manager libreoffice-fresh guake gparted net-tools tint2 git deluge
 
 echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
