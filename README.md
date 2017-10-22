@@ -8,7 +8,7 @@
 - Terminal: xfce4-terminal & Guake
 - Notepad: mousepad
 - Media Player: VLC
-- Web Browser: Chromium
+- Web Browser: Firefox Nightly
 - File Manager: nemo
 - Launcher: albert
 - Window Manager: Compiz & Emerald
