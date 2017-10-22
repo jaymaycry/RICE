@@ -6,5 +6,6 @@ exec tint2 &
 exec albert &
 exec guake &
 exec deluge &
+exec pasystray &
 xsetroot -cursor_name left_ptr &
 exec /usr/bin/compiz

@@ -12,6 +12,10 @@ sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad 
 echo Installing Video Drivers
 sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl
 
+echo Install Audio Drivers and Cotrollers
+sudo pacman -S pavucontrol pulseaudio
+yaourt -S pasystray-gtk2-standalone
+
 git clone https://aur.archlinux.org/package-query.git
 cd package-query
 makepkg -si
