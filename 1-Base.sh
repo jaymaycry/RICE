@@ -27,3 +27,11 @@ echo Creating Mount Folders Media, Media2, Data
 sudo mkdir /mnt/Media
 sudo mkdir /mnt/Media2
 sudo mkdir /mnt/Data
+
+echo Setting Up Network
+sudo pacman -S ifplugd
+#replace enp3s0 with the identifier of your network interface.
+sudo systemctl enable netctl-ifplugd@enp0s31f6.service
+sudo systemctl start netctl-ifplugd@enp0s31f6.service
+
+echo Configuring locale
