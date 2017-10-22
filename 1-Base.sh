@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo Setting Locale
+localedef -f UTF-8 -i en_US en_US.UTF-8
+
 echo Installing Base Programs
 sudo pacman -S xorg-xrandr vlc feh xorg-xinit xarchiver nemo chromium xfce4-terminal mousepad conky conky-manager libreoffice-fresh guake gparted net-tools tint2 git deluge
 
@@ -33,5 +36,3 @@ sudo pacman -S ifplugd
 #replace enp3s0 with the identifier of your network interface.
 sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
-
-echo Configuring locale
