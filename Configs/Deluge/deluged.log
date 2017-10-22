@@ -136,3 +136,6 @@ If you believe this is an error, you can force a start by deleting /home/sublime
 There is a deluge daemon running with this config directory!
 You cannot run multiple daemons with the same config directory set.
 If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
