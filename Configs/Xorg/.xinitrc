@@ -1,4 +1,7 @@
 compiz &
 xrandr -r 144
-tint2 &
-albert
+exec tint2 &
+exec albert &
+exec guake &
+exec conky &
+exec deluge
