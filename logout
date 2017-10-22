@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pkill -TERM -u $(whoami)&
+sleep 5 &&
+pkill -KILL -u $(whoami) &&
+sync

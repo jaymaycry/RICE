@@ -1,10 +1,10 @@
-export DEFAULT_USER="subline"
+export DEFAULT_USER="sublime"
 export TERM="xterm-256color"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/subline/.oh-my-zsh
+  export ZSH=/home/sublime/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
