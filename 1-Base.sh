@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Cloning Sublime's RICE Setup To Home
+echo Cloning RICE Setup To Home
 git clone https://github.com/UrbanNinja559/RICE.git ~/
 
 echo Installing Base Programs
@@ -10,14 +10,12 @@ echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
 
 echo Installing AUR Packages
-yaourt -S albert compiz emerald Xarchiver
+yaourt -S albert compiz emerald xarchiver
 
 echo Updating System
 sudo pacman -Syu
 
-echo Creating Mount Folders (Media, Media2 & Data)
+echo Creating Mount Folders Media, Media2, Data
 sudo mkdir /mnt/Media
 sudo mkdir /mnt/Media2
 sudo mkdir /mnt/Data
-
-
