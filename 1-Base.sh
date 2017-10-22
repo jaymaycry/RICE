@@ -25,7 +25,7 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S albert compiz emerald xarchiver grub-customier
+yaourt -S albert compiz emerald xarchiver grub-customier quicktile-git
 
 echo Updating System
 sudo pacman -Syu

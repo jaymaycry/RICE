@@ -17,6 +17,9 @@ exec guake &
 # Start Deluge Torrent Client
 exec deluge &
 
+# Quicktile Window Tiling
+quicktile -d
+
 # Start Taskbar Volume Control
 exec pasystray &
 
