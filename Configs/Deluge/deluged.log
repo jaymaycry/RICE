@@ -150,3 +150,18 @@ If you believe this is an error, you can force a start by deleting /home/sublime
 There is a deluge daemon running with this config directory!
 You cannot run multiple daemons with the same config directory set.
 If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
