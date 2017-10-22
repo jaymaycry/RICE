@@ -1,7 +1,7 @@
 ## My RICE Setup
 
 
-![alt text](/IMG/screenshot2.png "Simple.")
+![alt text](/IMG/screenshot3.png "Simple.")
 
 ### ---------- Programs In Use ----------
 
