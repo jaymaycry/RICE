@@ -26,3 +26,6 @@ cp ~/.config/i3/config ~/RICE/Configs/i3
 
 echo Backed Up XFCE4-Terminal Config
 cp ~/.config/xfce4/terminal/terminalrc ~/RICE/Configs/xfce4-terminal/
+
+echo Backed Up Polybar Config
+cp ~/.config/polybar/config ~/RICE/Configs/polybar
