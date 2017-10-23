@@ -7,7 +7,7 @@ echo Installing Base Programs
 sudo pacman -S htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted 
 net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi 
 wireless_tools pulseaudio firefox 
-pulseaudio-alsa libmpdclient
+pulseaudio-alsa libmpdclient zip unzip
 
 echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
