@@ -12,12 +12,6 @@ cp ~/RICE/Configs/Xorg/.xinitrc ~/
 echo ZSH Config Restored
 cp ~/RICE/Configs/zsh/.zshrc ~/
 
-echo Compiz Config Restored
-cp ~/RICE/Configs/compiz/Default.ini ~/.config/compiz-1/compizconfig/
-
-echo Tint2 Config Restored
-cp ~/RICE/Configs/tint2/tint2rc ~/.config/tint2/tint2rc
-
 echo Albert Config Restored
 cp ~/RICE/Configs/Albert/albert.conf ~/.config/albert/
 
@@ -31,11 +25,10 @@ echo Deluge Config Restored
 rm -rf ~/.config/deluge
 cp -r ~/RICE/Configs/Deluge ~/.config/deluge
 
-echo Conky Config Restored
-rm -rf ~/.conky
-cp -r ~/RICE/Configs/conky/.conky ~/
+echo i3 Config Restored
+cp ~/RICE/Configs/i3/config ~/.config/i3/
 
-echo Set xfce4-terminal As Nemo Default
-gsettings set org.cinnamon.desktop.default-applications.terminal exec xfce4-terminal
+echo XFCE4-Terminal Config Restored
+cp ~/RICE/Configs/xfce4-terminal/terminalrc ~/.config/xfce4/terminal/
 
 echo DONE!

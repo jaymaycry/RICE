@@ -379,10 +379,9 @@ else
 fi
 
 # Directory management
-alias la="ls -a"
-alias ll="ls -l"
-alias lal="ls -al"
-alias d="dirs -v"
+alias htop="htop -d 0"
+alias reload="i3-msg reload"
+alias config="nano ~/.config/i3/config"
 alias pac="sudo pacman -S"
 alias pacs="sudo pacman -Ss"
 alias remove="sudo rm -rf"

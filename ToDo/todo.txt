@@ -1,1 +1,22 @@
-add quicktile config sync
+add i3 sync
+add rofi config backup
+add xfce4 terminl config sync 
+add aur i3gaps to install script
+remove tint2 from install and config
+remove guake from install and script
+add ranger config to sync
+add polybar to sync
+add ./Xresources
+add ~/.extend.Xresources
+add compton conf
+
+
+To Add To Install Script
+
+i3lock
+cmatrix
+htop
+
+AUR:
+
+polybar
