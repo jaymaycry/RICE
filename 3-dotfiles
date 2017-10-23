@@ -31,4 +31,6 @@ cp ~/RICE/Configs/i3/config ~/.config/i3/
 echo XFCE4-Terminal Config Restored
 cp ~/RICE/Configs/xfce4-terminal/terminalrc ~/.config/xfce4/terminal/
 
+chsh -s $(which zsh)
+
 echo DONE!

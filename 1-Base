@@ -5,7 +5,7 @@ localedef -f UTF-8 -i en_US en_US.UTF-8
 
 echo Installing Base Programs
 sudo pacman -S htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted 
-net-tools git deluge
+net-tools git deluge compton xorg
 
 echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
@@ -13,9 +13,9 @@ sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad 
 echo Installing Video Drivers
 sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl
 
-echo Install Audio Drivers and Cotrollers
-sudo pacman -S pavucontrol pulseaudio
-yaourt -S pasystray-gtk2-standalone
+#echo Install Audio Drivers and Cotrollers
+#sudo pacman -S pavucontrol pulseaudio
+#yaourt -S pasystray-gtk2-standalone
 
 git clone https://aur.archlinux.org/package-query.git
 cd package-query
