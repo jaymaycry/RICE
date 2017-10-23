@@ -1,3 +1,5 @@
 COnfigs to add
 
 ~/.ncmpcpp/config
+~/.mpd
+~/.config/cava

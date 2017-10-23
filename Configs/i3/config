@@ -7,7 +7,6 @@ exec polybar top
 # Set Wallpaper
 exec feh --bg-scale ~/RICE/BG/bg9.jpg
 
-
 #Window Gaps
 
 gaps inner 25
@@ -15,9 +14,9 @@ gaps outer 0
 smart_gaps on
 
 # Window Border Color    border  backgr. text    indicator child_border
-client.focused         	#00FFDA #00FFDA #00FFDA #00FFDA #00FFDA
+client.focused         	#a90000 #a90000 #a90000 #a90000 #a90000
 client.focused_inactive	#00FFDA #00FFDA #00FFDA #00FFDA #00FFDA
-client.unfocused       	#073642 #073642 #073642 #073642 #073642
+client.unfocused       	#00FFDA #00FFDA #00FFDA #00FFDA #00FFDA
 
 # Remove Window Borders
 new_window pixel 1
