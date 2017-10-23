@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Your Public IP Is:
+curl -s icanhazip.com
