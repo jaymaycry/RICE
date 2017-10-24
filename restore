@@ -1,9 +1,11 @@
 #!/bin/bash
 
 echo Cursor Themes Restored
+rm -rf ~/.icons
 cp -r ~/RICE/Themes/.icons ~/
 
 echo GTK Themes Restored
+rm -rf ~/.themes
 cp -r ~/RICE/Themes/.themes ~/
 
 echo Xorg Startup Restored
