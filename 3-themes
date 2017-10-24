@@ -20,5 +20,3 @@ cp ~/usr/share/fonts/* ~/RICE/Themes/fonts
 sudo pacman -Syu ttf-roboto
 
 sudo pacman -Syu lxappearance
-
-lxappearance

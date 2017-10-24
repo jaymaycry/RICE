@@ -46,3 +46,8 @@ echo Ranger Config Restored
 rm -rf ~/.config/ranger
 mkdir ~/.config/ranger
 cp -r ~/RICE/Configs/ranger/ranger ~/.config
+
+echo Termite Config Restored
+rm -rf ~/.config/termite
+mkdir ~/.config/termite
+cp ~/RICE/Configs/termite/config ~/.config/termite/

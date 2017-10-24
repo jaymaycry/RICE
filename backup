@@ -35,3 +35,6 @@ cp -r ~/.ncmpcpp ~/RICE/Configs/ncmpcpp
 
 echo Ranger Config Backed Up
 cp -r ~/.config/ranger ~/RICE/Configs/ranger
+
+echo Termite Config Backed Up
+cp ~/.config/termite/config ~/RICE/Configs/termite

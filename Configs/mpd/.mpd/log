@@ -10737,3 +10737,83 @@ Oct 24 06:45 : exception: OutputThread could not get realtime scheduling, contin
 Oct 24 06:45 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
 Oct 24 06:45 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
 Oct 24 06:49 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/06. French Montana - Unforgettable (feat. Swae Lee).mp3"
+Oct 24 06:56 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/08 Neon Guts (feat. Pharrell William.mp3"
+Oct 24 07:00 : player: played "Migos - 2017 - Culture [WEB] {320}/08 - Migos - What The Price.mp3"
+Oct 24 07:07 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/16 Psilocybin (Love in Full Effect).mp3"
+Oct 24 07:12 : player: played "Nothing Was The Same (Deluxe Edition)/06 Worst Behaviour.mp3"
+Oct 24 07:15 : player: played "Drake - Take Care (Deluxe Version) [Official Album][CD-Rip]/03 Headlines.mp3"
+Oct 24 07:19 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/07 Feelings Mutual.mp3"
+Oct 24 07:19 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 07:22 : player: played "Logic - The Incredible True Story/I Am The Greatest.mp3"
+Oct 24 07:22 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:39 : player: played "Kodak Black - Projects Baby 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Kodak Black - Projects Baby 2 (2017)/06 Need a Break.mp3"
+Oct 24 08:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:39 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:40 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:40 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:40 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:40 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:40 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:40 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:41 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:41 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:41 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:41 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:42 : player: played "Trey Songz - Tremaine The Album [2017]/14 - Picture Perfect.mp3"
+Oct 24 08:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 08:42 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:47 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:47 : player: played "Gucci Mane - Droptopwop (2017)/09. Bucket List.mp3"
+Oct 24 08:47 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:47 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:48 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:59 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 08:59 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:00 : player: played "Logic - The Incredible True Story/Lucidity (Scene).mp3"
+Oct 24 09:00 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:03 : player: played "DJ Khaled - Grateful (2017) Mp3.320kbps [WR Music]/DJ Khaled - Grateful (2017) [Hunter]/18 That Range Rover Came With Steps.mp3"
+Oct 24 09:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:03 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:03 : player: played "DJ Khaled - Grateful (2017) Mp3.320kbps [WR Music]/DJ Khaled - Grateful (2017) [Hunter]/18 That Range Rover Came With Steps.mp3"
+Oct 24 09:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:03 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:04 : player: played "DJ Khaled - Grateful (2017) Mp3.320kbps [WR Music]/DJ Khaled - Grateful (2017) [Hunter]/18 That Range Rover Came With Steps.mp3"
+Oct 24 09:04 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/03 - WORLDSTAR.mp3"
+Oct 24 09:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:04 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:06 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/03 - WORLDSTAR.mp3"
+Oct 24 09:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:06 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:07 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/03 - WORLDSTAR.mp3"
+Oct 24 09:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:07 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:07 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/03 - WORLDSTAR.mp3"
+Oct 24 09:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:07 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Oct 24 09:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:22 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:22 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:23 : player: played "EVOL/09 Program.mp3"
+Oct 24 09:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:23 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:23 : player: played "EVOL/09 Program.mp3"
+Oct 24 09:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:23 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:23 : player: played "EVOL/09 Program.mp3"
+Oct 24 09:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:23 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 09:23 : player: played "EVOL/09 Program.mp3"
+Oct 24 09:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 09:23 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
