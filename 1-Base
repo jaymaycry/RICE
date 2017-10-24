@@ -3,23 +3,20 @@
 echo Setting Locale
 localedef -f UTF-8 -i en_US en_US.UTF-8
 
+echo Setting Up Network
+sudo pacman -S ifplugd
+#replace enp3s0 with the identifier of your network interface.
+sudo systemctl enable netctl-ifplugd@enp0s31f6.service
+sudo systemctl start netctl-ifplugd@enp0s31f6.service
+
 echo Installing Base Programs
-sudo pacman -S w3m htop cmatrix openssh xorg-xsetroot os-prober alsa-utils
-xorg-xrandr 
-vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted 
-net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi 
-wireless_tools pulseaudio firefox 
-pulseaudio-alsa libmpdclient zip unzip termite
+sudo pacman -S w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
 
 echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
 
 echo Installing Video Drivers
 sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl
-
-#echo Install Audio Drivers and Cotrollers
-#sudo pacman -S pavucontrol pulseaudio
-#yaourt -S pasystray-gtk2-standalone
 
 git clone https://aur.archlinux.org/package-query.git
 cd package-query
@@ -30,8 +27,7 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git 
-ncmpcpp-git cava python-pywal-git cower-git
+yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git
 
 echo Updating System
 sudo pacman -Syu
@@ -40,9 +36,3 @@ echo Creating Mount Folders Media, Media2, Data
 sudo mkdir /mnt/Media
 sudo mkdir /mnt/Media2
 sudo mkdir /mnt/Data
-
-echo Setting Up Network
-sudo pacman -S ifplugd
-#replace enp3s0 with the identifier of your network interface.
-sudo systemctl enable netctl-ifplugd@enp0s31f6.service
-sudo systemctl start netctl-ifplugd@enp0s31f6.service
