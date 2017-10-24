@@ -10681,3 +10681,33 @@ Oct 24 03:22 : player: played "Future - FUTURE (2017) [Mp3~320Kbps]/Future - FUT
 Oct 24 03:25 : player: played "Future - DS2 (Deluxe) (2015) - WEB 320/16 - Real Sisters.mp3"
 Oct 24 03:29 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/02 444+222.mp3"
 Oct 24 03:30 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/16 - Urn.mp3"
+Oct 24 03:34 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/43. Calvin Harris - Feels (feat. Pharrell Williams, Katy Perry & Big Sean).mp3"
+Oct 24 03:36 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/13 Stand Up.mp3"
+Oct 24 03:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 03:36 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 03:38 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/13 Stand Up.mp3"
+Oct 24 03:42 : player: played "Painting Pictures/02 Coolin and Booted.mp3"
+Oct 24 03:45 : player: played "Kanye West - Yeezus - 320kbps/09 Send It Up.mp3"
+Oct 24 03:48 : player: played "Future - DS2 (Deluxe) (2015) - WEB 320/11 - Colossal.mp3"
+Oct 24 03:51 : player: played "EVOL/03 Maybach.mp3"
+Oct 24 03:56 : player: played "Bryson Tiller - True to Self (2017)/14. Money Problems . Benz Truck.mp3"
+Oct 24 04:00 : player: played "Linkin Park - Meteora (2003)/03 Somewhere I Belong.mp3"
+Oct 24 04:03 : player: played "Various Artists - Suicide Squad (2016)/10. Grimes - Medieval Warfare.mp3"
+Oct 24 04:07 : player: played "Drake - Take Care (Deluxe Version) [Official Album][CD-Rip]/08 Well Be Fine (Feat. Birdman).mp3"
+Oct 24 04:09 : player: played "Logic - Everybody (2017)/07 Ink Blot (feat. Juicy J).mp3"
+Oct 24 04:13 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/04. Logic - 1-800-273-8255.mp3"
+Oct 24 04:17 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/20 Frequency.mp3"
+Oct 24 04:21 : player: played "50 Cent (2003) - Get Rich Or Die Tryin/10. Back Down.mp3"
+Oct 24 04:25 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/13 GOD..mp3"
+Oct 24 04:29 : player: played "Kanye West - Graduation (2007)/09 Flashing Lights (feat Dwele).mp3"
+Oct 24 04:33 : player: played "2014 Forest Hills Drive/03 Wet Dreamz.mp3"
+Oct 24 04:38 : player: played "Lil Yachty - Teenage Emotions 2017.Mp3.320kbps.[Hunter]/Lil Yachty - Teenage Emotions (2017)/15 - Bring It Back.mp3"
+Oct 24 04:40 : player: played "Childish Gambino - Awaken, My Love Album 2016/07. California.mp3"
+Oct 24 04:44 : player: played "The Weeknd - Starboy (2016)/09 Sidewalks (feat. Kendrick Lamar).mp3"
+Oct 24 04:47 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/02 - Crawl.mp3"
+Oct 24 04:51 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/17 - Pink Toes (feat. Jhene Aiko).mp3"
+Oct 24 04:51 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+Oct 24 04:51 : exception: Failed to open audio output
+Oct 24 04:51 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/14 - Flight Of The Navigator.mp3"
+Oct 24 05:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 05:37 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM

@@ -5,8 +5,8 @@ exec xsetroot -cursor_name left_ptr
 exec polybar top
 
 # Set Wallpaper
-exec feh --bg-scale ~/RICE/BG/bg3.jpg
-
+#exec feh --bg-scale ~/RICE/BG/bg4.jpg
+exec feh --bg-tile ~/RICE/BG/red.jpg
 #Window Gaps
 
 gaps inner 15
@@ -14,13 +14,13 @@ gaps outer 15
 #smart_gaps off
 
 # class                 border  	backgr.       text_indicator 	child_border
-client.focused          #d26939 #d26939 #d26939 #d26939 #d26939 #d26939
-client.focused_inactive #c33027 #c33027 #c33027 #c33027 #c33027 #c33027
-client.unfocused        #c33027 #c33027 #c33027 #c33027 #c33027 #c33027  
+client.focused          #d26939 #d26939 #d26939 #d26939 #d26939
+client.focused_inactive #0a0f14 #0a0f14 #0a0f14 #0a0f14 #0a0f14
+client.unfocused        #0a0f14 #0a0f14 #0a0f14 #0a0f14 #0a0f14
 
 # Remove Window Borders
-new_window pixel 3
-new_float pixel 3
+new_window pixel 1
+new_float pixel 1
 
 set $mod Mod1
 
