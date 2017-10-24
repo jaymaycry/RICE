@@ -10721,3 +10721,19 @@ Oct 24 05:56 : exception: Failed to open mixer for 'default detected output': no
 Oct 24 06:00 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/03 Bounce Back.mp3"
 Oct 24 06:04 : player: played "Future - HNDRXX (2017) Mp3 320Kbps Groo/03 Lookin Exotic.mp3"
 Oct 24 06:07 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/58. Lil Uzi Vert - The Way Life Goes.mp3"
+Oct 24 06:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 06:18 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 06:43 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+Oct 24 06:43 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+xcb_connection_has_error() returned true
+Oct 24 06:43 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+xcb_connection_has_error() returned true
+Oct 24 06:43 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+Oct 24 06:43 : exception: Failed to open audio output
+Oct 24 06:43 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/18 Picture Perfect (Freestyle).mp3"
+Oct 24 06:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 06:45 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 24 06:45 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 06:49 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/06. French Montana - Unforgettable (feat. Swae Lee).mp3"
