@@ -10,7 +10,7 @@ sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
 echo Installing Base Programs
-sudo pacman -S w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
+sudo pacman -S lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
 
 echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav
@@ -27,7 +27,7 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git
+yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git paper-icon-theme
 
 echo Updating System
 sudo pacman -Syu
