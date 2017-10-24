@@ -10665,3 +10665,19 @@ Oct 24 01:43 : exception: Failed to read mixer for 'default detected output': no
 Oct 24 01:43 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
 Oct 24 01:46 : player: played "Mac Miller - The Divine Feminine (2016) 320/06. Planet God Damn (feat. Njomza).mp3"
 Oct 24 01:51 : player: played "Future - FUTURE (2017) [Mp3~320Kbps]/Future - FUTURE (2017)/17. Feds Did a Sweep.mp3"
+Oct 24 02:53 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+Oct 24 02:53 : player: played "The Marshall Mathers LP/18 Criminal.mp3"
+Oct 24 02:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 02:54 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 02:59 : player: played "Painting Pictures/10 Tunnel Vision.mp3"
+Oct 24 03:04 : player: played "The Marshall Mathers LP/18 Criminal.mp3"
+Oct 24 03:09 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/38. Childish Gambino - Redbone.mp3"
+Oct 24 03:15 : player: played "J Cole - Born Sinner (Deluxe Version)/J Cole Feat Amber Coffman - She Knows.mp3"
+Oct 24 03:17 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/12 Bad For You (feat. Nicki Minaj).mp3"
+Oct 24 03:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 03:17 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 03:19 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/12 Bad For You (feat. Nicki Minaj).mp3"
+Oct 24 03:22 : player: played "Future - FUTURE (2017) [Mp3~320Kbps]/Future - FUTURE (2017)/04. Draco.mp3"
+Oct 24 03:25 : player: played "Future - DS2 (Deluxe) (2015) - WEB 320/16 - Real Sisters.mp3"
+Oct 24 03:29 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/02 444+222.mp3"
+Oct 24 03:30 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/16 - Urn.mp3"

@@ -1,2 +1,4 @@
 ~/.config/cava
 termite config
+htop
+compton conf

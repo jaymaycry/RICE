@@ -156,7 +156,7 @@ icon-stop = 
 icon-play = 
 icon-pause = 
 icon-next = 
-label-song-maxlen = 25
+label-song-maxlen = 40
 label-song-ellipsis = true
 host = ::1
 port = 6600
@@ -226,7 +226,7 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = " "
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 

@@ -1,17 +1,17 @@
 # Autostart Programs
 exec xrandr -r 144
-exec compton -b
+exec compton --config ~/.compton.conf -b
 exec xsetroot -cursor_name left_ptr
 exec polybar top
 
 # Set Wallpaper
-exec feh --bg-scale /mnt/Media/Pictures/Wallpapers/wallhaven-564573.jpg
+exec feh --bg-scale ~/RICE/BG/bg3.jpg
 
 #Window Gaps
 
 gaps inner 15
 gaps outer 15
-smart_gaps on
+#smart_gaps off
 
 # class                 border  	backgr.       text_indicator 	child_border
 client.focused          #d26939 #d26939 #d26939 #d26939 #d26939 #d26939
