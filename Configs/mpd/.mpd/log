@@ -10711,3 +10711,13 @@ Oct 24 04:51 : exception: Failed to open audio output
 Oct 24 04:51 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/14 - Flight Of The Navigator.mp3"
 Oct 24 05:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 24 05:37 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 24 05:55 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/14 - Flight Of The Navigator.mp3"
+Oct 24 05:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 05:55 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 24 05:55 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 05:56 : player: played "Kendrick Lamar -To Pimp a Butterfly (2015) [WEB]/15. i.mp3"
+Oct 24 05:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 05:56 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 06:00 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/03 Bounce Back.mp3"
+Oct 24 06:04 : player: played "Future - HNDRXX (2017) Mp3 320Kbps Groo/03 Lookin Exotic.mp3"
+Oct 24 06:07 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/58. Lil Uzi Vert - The Way Life Goes.mp3"
