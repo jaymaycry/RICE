@@ -4,7 +4,9 @@ echo Setting Locale
 localedef -f UTF-8 -i en_US en_US.UTF-8
 
 echo Installing Base Programs
-sudo pacman -S htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted 
+sudo pacman -S w3m htop cmatrix openssh xorg-xsetroot os-prober 
+xorg-xrandr 
+vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted 
 net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi 
 wireless_tools pulseaudio firefox 
 pulseaudio-alsa libmpdclient zip unzip

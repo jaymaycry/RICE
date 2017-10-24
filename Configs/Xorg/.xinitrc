@@ -2,6 +2,4 @@
 # '&' tells the script to execute the command in the background and continue processing
 # command &
 
-exec deluge &
-exec pasystray &
 exec i3

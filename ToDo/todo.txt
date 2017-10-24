@@ -5,3 +5,4 @@ COnfigs to add
 ~/.config/cava
 ~/.Xresources
 ~/.extend.Xresources
+ranger config
