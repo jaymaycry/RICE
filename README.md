@@ -1,34 +1,17 @@
-## My RICE Setup
+## Sublimes HomeBase Arch Build
 
 
 ![alt text](/IMG/screenshot3.png "Simple.")
 
 ### ---------- Programs In Use ----------
 
-- Terminal: xfce4-terminal & Guake
-- Notepad: mousepad
+- Terminal: Termite
+- Notepad: Vim
 - Media Player: VLC
 - Web Browser: Firefox Nightly
-- File Manager: nemo
-- Launcher: albert
-- Window Manager: Compiz & Emerald
-- Office Suite: Libre Office
+- File Manager: Ranger
+- Launcher: Rofi
+- Window Manager: I3-Gaps
 - Torrent Client: Deluge
-- DeskBar: Tint2
-- Widgets: Conky
-- Archive Manager: XArchiver
+- DeskBar: Polybar
 - Image Viewer: Feh
-
-
-### ---------- System Tools ----------
-
-- Gparted
-- NetTools
-- Git
-- Xorg
-- Xrandr
-- Xinit
-- Grub Customizer
-- OS Prober
-- Ifplugd
-
