@@ -31,7 +31,7 @@ makepkg -si
 
 echo Installing AUR Packages
 yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git 
-ncmpcpp-git cava python-pywal-git
+ncmpcpp-git cava python-pywal-git cower-git
 
 echo Updating System
 sudo pacman -Syu
