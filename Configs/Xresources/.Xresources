@@ -40,9 +40,26 @@ xterm*locale: true
 xterm*cursorblink: true
 xterm*foreground: #98d1ce
 xterm*background: #0a0f14
-
 xterm*faceName: ShureTechMono\ Nerd\ Font:style=Regular
 xterm*faceSize: 13
+
+URxvt*termName:                 rxvt-256color
+URxvt*font:                     xft:Roboto:pixelsize=28
+URxvt.depth:                    32
+URxvt*lineSpace:                1
+URxvt.letterSpace:              0
+URxvt.iso14755:                 false
+URxvt.iso14755_52:              false
+URxvt*geometry:                 65x17
+URxvt.scrollBar:                false
+URxvt*loginShell:               true
+URxvt.internalBorder:           5
+URxvt.perl-ext-common:          default,clipboard
+URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.clipboard.autocopy:       true
+
+
 
 ! Every shell is a login shell by default (for inclusion of all necessary environment variables)
 xterm*loginshell: true

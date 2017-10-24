@@ -1,8 +1,2 @@
-COnfigs to add
-
-~/.ncmpcpp/config
-~/.mpd
 ~/.config/cava
-~/.Xresources
-~/.extend.Xresources
-ranger config
+termite config

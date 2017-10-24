@@ -1,0 +1,264 @@
+Unable to initialize gettext/locale: 'deluge/i18n'
+Unable to enable plugin!
+Couldn't listen on 0.0.0.0:8112: [Errno 98] Address already in use.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/deluge/plugins/init.py", line 48, in enable
+    self.plugin.enable()
+  File "/usr/lib/python2.7/site-packages/deluge/plugins/WebUi-0.1-py2.7.egg/webui/core.py", line 59, in enable
+    self.start()
+  File "/usr/lib/python2.7/site-packages/deluge/plugins/WebUi-0.1-py2.7.egg/webui/core.py", line 97, in start
+    self.server.start(False)
+  File "/usr/lib/python2.7/site-packages/deluge/ui/web/server.py", line 670, in start
+    self.start_normal()
+  File "/usr/lib/python2.7/site-packages/deluge/ui/web/server.py", line 678, in start_normal
+    self.socket = reactor.listenTCP(self.port, self.site, interface=self.interface)
+  File "/usr/lib/python2.7/site-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python2.7/site-packages/twisted/internet/tcp.py", line 980, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+CannotListenError: Couldn't listen on 0.0.0.0:8112: [Errno 98] Address already in use.
+Unable to initialize gettext/locale: 'deluge/i18n'
+Unable to instantiate plugin!
+cannot import name WebUI
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/deluge/pluginmanagerbase.py", line 144, in enable_plugin
+    instance = cls(plugin_name.replace("-", "_"))
+  File "/home/rdmrpg/.config/deluge/plugins/IPstatusbar-0.2-py2.7.egg/ipstatusbar/__init__.py", line 56, in __init__
+    from webui import WebUI as _plugin_cls
+ImportError: cannot import name WebUI
+Unable to backup /home/rdmrpg/.config/deluge/state/torrents.fastresume to /home/rdmrpg/.config/deluge/state/torrents.fastresume.bak: [Errno 2] No such file or directory
+Unable to initialize gettext/locale: 'deluge/i18n'
+Unable to instantiate plugin!
+cannot import name WebUI
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/deluge/pluginmanagerbase.py", line 144, in enable_plugin
+    instance = cls(plugin_name.replace("-", "_"))
+  File "/home/rdmrpg/.config/deluge/plugins/IPstatusbar-0.2-py2.7.egg/ipstatusbar/__init__.py", line 56, in __init__
+    from webui import WebUI as _plugin_cls
+ImportError: cannot import name WebUI
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/rdmrpg/.config/deluge/deluged.pid.
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 542 [1080p].mkv): mismatching file timestamp
+Restart deluge to clear this torrent error
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+Restart deluge to clear this torrent error
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/gotham.s01e10.1080p.bluray.x264-rovers.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/subnet/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/subnet/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/subnet/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/subnet/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/subnet/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/subnet/.config/deluge/deluged.pid.
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/gotham.s01e10.1080p.bluray.x264-rovers.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/gotham.s01e10.1080p.bluray.x264-rovers.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/gotham.s01e10.1080p.bluray.x264-rovers.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+Unable to backup /home/subnet/.config/deluge/state/torrents.state to /home/subnet/.config/deluge/state/torrents.state.bak: [Errno 2] No such file or directory
+Unable to initialize gettext/locale: unsupported locale setting
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. (/mnt/Data/Downloads/Torrents/Complete/TV/Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv): mismatching file size
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. (/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file size
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. (/mnt/Data/Downloads/Torrents/Complete/Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE/game.of.thrones.s01e07.720p.hdtv.x264-immerse.sfv): mismatching file size
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. (/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file size
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E08.720p.HDTV.x264-CTU.mkv fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Game.of.Thrones.S01E07.720p.HDTV.x264-IMMERSE fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. check resume(): missing or invalid 'file sizes' entry
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+Restart deluge to clear this torrent error
+Restart deluge to clear this torrent error
+Restart deluge to clear this torrent error
+Restart deluge to clear this torrent error
+Restart deluge to clear this torrent error
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+Restart deluge to clear this torrent error
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+on_alert_fastresume_rejected: [HorribleSubs] One Piece (01-700) [1080p] (Batch) fast resume rejected. stat(/mnt/Media2/Videos/Anime/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece (01-700) [1080p] (Batch)/[HorribleSubs] One Piece - 179 [1080p].mkv): mismatching file timestamp
+on_alert_fastresume_rejected: Gotham.S01.1080p.BluRay.x264-ROVERS[rartv] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Gotham.S01.1080p.BluRay.x264-ROVERS[rartv]/Subs/Gotham.S01E04.1080p.BluRay.x264-ROVERS.sub): mismatching file timestamp
+on_alert_fastresume_rejected: Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg] fast resume rejected. stat(/mnt/Data/Downloads/Torrents/Complete/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7[rarbg]/Baskets.S02E10.Circus.1080p.WEB-DL.DD5.1.H264-Coo7.mkv): mismatching file timestamp
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.
+There is a deluge daemon running with this config directory!
+You cannot run multiple daemons with the same config directory set.
+If you believe this is an error, you can force a start by deleting /home/sublime/.config/deluge/deluged.pid.

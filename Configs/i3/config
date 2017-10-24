@@ -4,9 +4,6 @@ exec compton -b
 exec xsetroot -cursor_name left_ptr
 exec polybar top
 
-# Restart i3 inplace #
-bindsym $mod+Shift+r restart
-
 # Set Wallpaper
 exec feh --bg-scale /mnt/Media/Pictures/Wallpapers/wallhaven-564573.jpg
 
