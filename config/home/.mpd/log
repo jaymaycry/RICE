@@ -11496,3 +11496,15 @@ Oct 25 08:04 : player: played "SremmLife/03 No Flex Zone.mp3"
 Oct 25 08:08 : player: played "Various Artists - Suicide Squad (2016)/09. Skylar Grey - Wreak Havoc.mp3"
 Oct 25 08:12 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/52. SZA - The Weekend.mp3"
 Oct 25 08:15 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/11 Been That (feat. Rick Ross).mp3"
+Oct 25 08:56 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 09:30 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 09:35 : player: played "EVOL/10 Low Life (feat. The Weeknd).mp3"
+Oct 25 09:35 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 09:38 : player: played "Logic - The Incredible True Story/Upgrade.mp3"
+Oct 25 09:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 09:42 : player: played "Joey Bada$$ - All-Amerikkkan Bada$$ (2017)/08 RING THE ALARM (feat. Nyck Caution, Kirk Knight & Meechy Darko).mp3"
+Oct 25 09:47 : player: played "J Cole - Born Sinner (Deluxe Version)/J Cole Feat Amber Coffman - She Knows.mp3"
+Oct 25 09:51 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/10 You Are Here.mp3"
+Oct 25 09:55 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/26. P!nk - What About Us.mp3"
+Oct 25 10:00 : player: played "Kendrick Lamar -To Pimp a Butterfly (2015) [WEB]/08. For Sale! (Interlude).mp3"
+Oct 25 10:04 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/14 DUCKWORTH..mp3"
