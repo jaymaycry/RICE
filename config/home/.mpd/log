@@ -11447,3 +11447,12 @@ Oct 25 03:41 : exception: Failed to open mixer for 'default detected output': no
 Oct 25 03:45 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/17. Nothing To Me (feat. Keyshia Cole & E-40).mp3"
 Oct 25 03:49 : player: played "Nirvana - Greatest Hits (2002) vtwin88cube/08.In Bloom.mp3"
 Oct 25 03:53 : player: played "Childish Gambino - Awaken, My Love Album 2016/08. Terrified.mp3"
+Oct 25 04:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 04:48 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 25 04:48 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 04:49 : player: played "Childish Gambino - Awaken, My Love Album 2016/08. Terrified.mp3"
+Oct 25 04:52 : player: played "Linkin Park - Hybrid Theory (2000)/05 Crawling.mp3"
+Oct 25 05:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 05:41 : player: played "Under Pressure (Deluxe Version)/04 Gang Related.mp3"
+Oct 25 05:46 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/17. Nothing To Me (feat. Keyshia Cole & E-40).mp3"
+Oct 25 05:50 : player: played "Nirvana - Greatest Hits (2002) vtwin88cube/08.In Bloom.mp3"

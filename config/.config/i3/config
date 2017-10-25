@@ -6,8 +6,11 @@ exec polybar top
 
 # Set Wallpaper
 exec feh --bg-tile ~/rice/bg/red.jpg
-#Window Gaps
 
+# lock screen
+bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
+
+#Window Gaps
 gaps inner 15
 gaps outer 5
 #smart_gaps off
@@ -132,9 +135,6 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-
-# lock screen
-bindsym $mod+Shift+x exec i3lock
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. 
 #Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current 

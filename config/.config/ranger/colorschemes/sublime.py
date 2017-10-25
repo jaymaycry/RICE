@@ -19,7 +19,7 @@ class Default(ColorScheme):
 				bg = white
 			if context.border:
 				attr = normal
-				fg = black
+				fg = green
 			if context.media:
 				if context.image:
 					fg = white
@@ -27,7 +27,7 @@ class Default(ColorScheme):
 					fg = white
 			if context.container:
 				attr |= bold
-				fg = black
+				fg = red
 			if context.directory:
 				attr |= normal
 				fg = green
@@ -47,9 +47,9 @@ class Default(ColorScheme):
 			if context.tag_marker and not context.selected:
 				attr |= bold
 				if fg in (black, magenta):
-					fg = black
+					fg = blue
 				else:
-					fg = black
+					fg = blue
 			if not context.selected and (context.cut or context.copied):
 				fg = yellow
 				attr |= bold
@@ -74,14 +74,14 @@ class Default(ColorScheme):
 				fg = magenta
 			elif context.tab:
 				if context.good:
-					bg = black
+					bg = red
 			elif context.link:
 				fg = cyan
 
 		elif context.in_statusbar:
 			if context.permissions:
 				if context.good:
-					fg = black
+					fg = red
 				elif context.bad:
 					fg = magenta
 			if context.marked:

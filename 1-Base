@@ -42,3 +42,7 @@ sudo mkdir /mnt/Media
 sudo mkdir /mnt/Media2
 sudo mkdir /mnt/Data
 sudo mkdir /mnt/usb
+
+echo Disable Screen Timeout
+xset -dpms
+xset s off
