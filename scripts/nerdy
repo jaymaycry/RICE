@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 # a system info script written by yours truly
 # it's hardcoded stuff, lulz
 
@@ -12,15 +12,12 @@ prp="\e[35m"
 bprp="\e[35;1m"
 rst="\e[0m"
 
-echo
-
 color-echo()
 {  # print with colors
   echo -e " $red$1  $rst$2"
 }
 
 # kernel
-echo
 color-echo 'kernel' "$(uname -smr)"
 
 # shell
@@ -33,13 +30,9 @@ color-echo 'WM    ' 'I3 Gaps'
 color-echo 'Distro' 'Arch v9k'
 
 # ascii art
-echo -e "        "
-echo -e " (-_-) Sublime"
-echo -e "        "
+#echo -e "        "
+#echo -e " (-_-) Sublime"
+#echo -e "        "
 
 # colors
-echo -e " $red●$rst $grn●$rst $blu●$rst $ylw●$rst $cyn●$rst $prp●$rst $bprp●$rst"
-
-echo
-echo
-
+echo -e " $red$rst $grn$rst $blu$rst $ylw$rst $cyn$rst $prp$rst $bprp$rst"
