@@ -11441,3 +11441,9 @@ Oct 25 00:52 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (M
 Oct 25 00:56 : player: played "Under Pressure (Deluxe Version)/04 Gang Related.mp3"
 Oct 25 00:58 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
 Oct 25 00:58 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/17. Nothing To Me (feat. Keyshia Cole & E-40).mp3"
+Oct 25 03:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 03:41 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 25 03:41 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 03:45 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/17. Nothing To Me (feat. Keyshia Cole & E-40).mp3"
+Oct 25 03:49 : player: played "Nirvana - Greatest Hits (2002) vtwin88cube/08.In Bloom.mp3"
+Oct 25 03:53 : player: played "Childish Gambino - Awaken, My Love Album 2016/08. Terrified.mp3"

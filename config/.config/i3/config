@@ -5,8 +5,7 @@ exec xsetroot -cursor_name left_ptr
 exec polybar top
 
 # Set Wallpaper
-#exec feh --bg-scale ~/RICE/BG/bg4.jpg
-exec feh --bg-tile ~/RICE/BG/red.jpg
+exec feh --bg-tile ~/rice/bg/red.jpg
 #Window Gaps
 
 gaps inner 15

@@ -16,7 +16,7 @@ class Default(ColorScheme):
 			else:
 				attr = normal
 			if context.empty or context.error:
-				bg = black
+				bg = white
 			if context.border:
 				attr = normal
 				fg = black
@@ -46,7 +46,7 @@ class Default(ColorScheme):
 				fg = context.good and cyan or magenta
 			if context.tag_marker and not context.selected:
 				attr |= bold
-				if fg in (red, magenta):
+				if fg in (black, magenta):
 					fg = black
 				else:
 					fg = black
@@ -69,7 +69,7 @@ class Default(ColorScheme):
 			attr |= normal
 			if context.hostname:
 				attr |= bold
-				fg = context.bad and red or black
+				fg = context.bad and black or black
 			elif context.directory:
 				fg = magenta
 			elif context.tab:
@@ -90,7 +90,7 @@ class Default(ColorScheme):
 			if context.message:
 				if context.bad:
 					attr |= bold
-					fg = red
+					fg = white
 
 		if context.text:
 			if context.highlight:
