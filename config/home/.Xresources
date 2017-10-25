@@ -1,89 +1,56 @@
 ! special
 *.foreground:   #26a98b
-*.background:   #081f2d
-*.cursorColor:  #98d1ce
+*.background:   #070e14
+*.cursorColor:  #26a98b
 
 ! black
 *.color0:       #0a0f14
-*.color8:       #405163
+*.color8:       #25374a
 
 ! red
 *.color1:       #c33027
-*.color9:       #d26939
+*.color9:       #c33027
 
 ! green
 *.color2:       #26a98b
-*.color10:      #081f2d
+*.color10:      #26a98b
 
 ! yellow
 *.color3:       #edb54b
-*.color11:      #245361
+*.color11:      #edb54b
 
 ! blue
 *.color4:       #195465
-*.color12:      #093748
+*.color12:      #195465
 
 ! magenta
-*.color5:       #4e5165
-*.color13:      #888ba5
+*.color5:       #787c9b
+*.color13:      #787c9b
 
 ! cyan
 *.color6:       #33859d
-*.color14:      #599caa
+*.color14:      #33859d
 
 ! white
 *.color7:       #98d1ce
-*.color15:      #d3ebe9
-
-xterm*termname: xterm-256color
-xterm*locale: true
-xterm*cursorblink: true
-xterm*foreground: #98d1ce
-xterm*background: #0a0f14
-xterm*faceName: ShureTechMono\ Nerd\ Font:style=Regular
-xterm*faceSize: 13
-
-URxvt*termName:                 rxvt-256color
-URxvt*font:                     xft:Roboto:pixelsize=28
-URxvt.depth:                    32
-URxvt*lineSpace:                1
-URxvt.letterSpace:              0
-URxvt.iso14755:                 false
-URxvt.iso14755_52:              false
-URxvt*geometry:                 65x17
-URxvt.scrollBar:                false
-URxvt*loginShell:               true
-URxvt.internalBorder:           5
-URxvt.perl-ext-common:          default,clipboard
-URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
-URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
-URxvt.clipboard.autocopy:       true
+*.color15:      #98d1ce
 
 
 
-! Every shell is a login shell by default (for inclusion of all necessary environment variables)
-xterm*loginshell: true
-
-! I like a LOT of scrollback...
-xterm*savelines: 16384
-
-! double-click to select whole URLs :D
-xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
-
-! DOS-box colours...
 
 rofi.location:          0
 rofi.color-enabled:     true
 !                       'background', 'border'
-rofi.color-window:      #0a0f14, #c33027, #c33027, #98d1ce
+rofi.color-window:      #070e14, #c33027, #c33027, #26a98b
 
 ! State:                'bg',          'fg',   'bgalt',       'hlbg',        'hlfg'
-rofi.color-normal:      argb:00333333, #98d1ce, argb:00333333, argb:00333333, argb:fff4d68c
-rofi.color-urgent:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:fff4d68c
-rofi.color-active:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:fff4d68c
+rofi.color-normal:      #070e14, #98d1ce, argb:00333333, #070e14, #26a98b
+rofi.color-urgent:      #070e14, #ffffff, argb:00333333, #070e14, #26a98b
+rofi.color-active:      #070e14, #ffffff, argb:00333333, #070e14, #26a98b
 rofi.separator-style:   solid
 rofi.fullscreen:        false
-rofi.padding:           5
+rofi.padding:           20
+rofi.lines:             5
 rofi.hide-scrollbar:    true
 rofi.line-margin:       5
 rofi.fake-transparency: true
@@ -99,3 +66,4 @@ Xft.hintstyle: hintslight
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+
