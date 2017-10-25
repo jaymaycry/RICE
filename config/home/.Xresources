@@ -58,7 +58,7 @@ rofi.yoffset:           0
 rofi.xoffset:           0
 rofi.width:             300
 rofi.opacity:           90
-rofi.font:              Roboto\ Mono 14
+rofi.font:              Shure\ Tech\ Mono\ Nerd\ Font 14
 
 Xft.autohint: 1
 Xft.lcdfilter: lcddefault
