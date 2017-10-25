@@ -1,40 +1,31 @@
 #!/bin/bash
 
-echo Cursor Themes Backed Up
-cp -r ~/.icons ~/RICE/Themes/
+# .config
+cp -r ~/.config/cava ~/rice/config/.config/
+cp -r ~/.config/htop ~/rice/config/.config/
+cp -r ~/.config/i3 ~/rice/config/.config/
+cp -r ~/.config/neofetch ~/rice/config/.config/
+cp -r ~/.config/pcmanfm ~/rice/config/.config/
+cp -r ~/.config/polybar ~/rice/config/.config/
+cp -r ~/.config/ranger ~/rice/config/.config/
+cp -r ~/.config/termite ~/rice/config/.config/
+cp -r ~/.config/torrench ~/rice/config/.config/
 
-echo GTK Themes Backed Up
-cp -r ~/.themes ~/RICE/Themes/
+# ~/
+cp -r ~/.mpd ~/rice/config/home/
+cp -r ~/.mplayer ~/rice/config/home/
+cp -r ~/.ncmpcpp ~/rice/config/home/
+cp -r ~/.themes ~/rice/config/home/
+cp -r ~/.icons ~/rice/config/home/
+cp -r ~/.local/share/fonts ~/rice/config/home/
+cp  ~/.gitconfig ~/rice/config/home/
+cp  ~/.compton.conf ~/rice/config/home/
+cp  ~/.vimrc ~/rice/config/home/
+cp  ~/.rtorrent.rc ~/rice/config/home/
+cp  ~/.Xauthority ~/rice/config/home/
+cp  ~/.xinitrc ~/rice/config/home/
+cp  ~/.Xresources ~/rice/config/home/
+cp  ~/.zshrc ~/rice/config/home/
+cp  ~/.zsh_history ~/rice/config/home/
 
-echo Xorg Startup Backed Up
-cp ~/.xinitrc ~/RICE/Configs/Xorg/
-
-echo ZSH Config Backed Up
-cp ~/.zshrc ~/RICE/Configs/zsh/
-
-echo Fonts Backed Up
-cp -r ~/.local/share/fonts ~/RICE/Themes/fonts
-
-echo Deluge Config Backed Up
-cp -r ~/.config/deluge/* ~/RICE/Configs/Deluge
-
-echo Backed Up i3 Config
-cp ~/.config/i3/config ~/RICE/Configs/i3
-
-echo Backed Up Polybar Config
-cp ~/.config/polybar/config ~/RICE/Configs/polybar
-
-echo Backed Up .Xresources
-cp ~/.Xresources ~/RICE/Configs/Xresources
-
-echo Backed up .mpd
-cp -r ~/.mpd ~/RICE/Configs/mpd
-
-echo NCMPCPP Backed Up
-cp -r ~/.ncmpcpp ~/RICE/Configs/ncmpcpp
-
-echo Ranger Config Backed Up
-cp -r ~/.config/ranger ~/RICE/Configs/ranger
-
-echo Termite Config Backed Up
-cp ~/.config/termite/config ~/RICE/Configs/termite
+echo Backup Complete

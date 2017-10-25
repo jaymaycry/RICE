@@ -1,0 +1,10 @@
+{
+   "cinnamon-theme": {
+        "name" : "Unite",
+        "author" : "thearakattack2",
+        "version" : "initial",
+        "type" : "custom",
+        "thumbnail" : "thumbnail.png",
+        "url" : ""
+    }
+}

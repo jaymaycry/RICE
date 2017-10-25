@@ -1,0 +1,2 @@
+open_with 
+shell sudo chown -R sublime:users Media2

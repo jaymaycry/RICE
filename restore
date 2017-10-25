@@ -1,55 +1,5 @@
 #!/bin/bash
+cp -r ~/rice/config/home/* ~/
+cp -r ~/rice/config/.config/* ~/.config
 
-echo Cursor Themes Restored
-rm -rf ~/.icons
-cp -r ~/RICE/Themes/.icons ~/
-
-echo GTK Themes Restored
-rm -rf ~/.themes
-cp -r ~/RICE/Themes/.themes ~/
-
-echo Xorg Startup Restored
-cp ~/RICE/Configs/Xorg/.xinitrc ~/
-
-echo ZSH Config Restored
-cp ~/RICE/Configs/zsh/.zshrc ~/
-
-echo User Dirs Restored
-cp ~/RICE/Configs/Dirs/user-dirs.dirs ~/.config/
-
-echo Fonts Restored
-cp -r ~/RICE/Themes/fonts ~/.local/share/
-
-echo Deluge Config Restored
-rm -rf ~/.config/deluge
-mkdir ~/.config/deluge
-cp -r ~/RICE/Configs/Deluge ~/.config/deluge
-
-echo i3 Config Restored
-rm -rf ~/.config/i3
-mkdir ~/.config/i3
-cp ~/RICE/Configs/i3/config ~/.config/i3/
-
-echo Xresources Restored
-cp ~/RICE/Configs/Xresources/.Xresources ~/
-
-echo Polybar Config Restored
-rm -rf ~/.config/polybar
-mkdir ~/.config/polybar
-cp ~/RICE/Configs/polybar/config ~/.config/polybar
-
-echo MPD Config Restored
-cp -r /home/sublime/RICE/Configs/mpd/.mpd ~/
-
-echo NCMPCPP Config Restored
-cp -r ~/RICE/Configs/ncmpcpp/.ncmpcpp ~/
-
-echo Ranger Config Restored
-rm -rf ~/.config/ranger
-mkdir ~/.config/ranger
-cp -r ~/RICE/Configs/ranger/ranger ~/.config
-
-echo Termite Config Restored
-rm -rf ~/.config/termite
-mkdir ~/.config/termite
-cp ~/RICE/Configs/termite/config ~/.config/termite/
+echo Restore Complete
