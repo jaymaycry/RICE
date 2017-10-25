@@ -11467,3 +11467,30 @@ Oct 25 06:24 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (M
 Oct 25 06:27 : player: played "Future - FUTURE (2017) [Mp3~320Kbps]/Future - FUTURE (2017)/16. When I Was Broke.mp3"
 Oct 25 06:30 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/15. Demi Lovato - Sorry Not Sorry.mp3"
 Oct 25 06:43 : player: played "Kanye West - The College Dropout [Remastered] (2004) mp3@320 vtwin88cube/21.Last Call.mp3"
+Oct 25 06:46 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/92. Lorde - Homemade Dynamite (Remix) [feat. Khalid, Post Malone & SZA].mp3"
+Oct 25 06:50 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/02 Light (feat. Jeremih).mp3"
+Oct 25 06:54 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/05. Drifting (feat. Chris Brown & Tory Lanez).mp3"
+Oct 25 06:59 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/12 Nobody.mp3"
+Oct 25 07:04 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/13 Sacrifices (feat. Migos).mp3"
+Oct 25 07:07 : player: played "Under Pressure (Deluxe Version)/15 Alright (feat. Big Sean).mp3"
+Oct 25 07:11 : player: played "Drake - More Life [2017]/5 Get It Together (feat. Black Coffee & Jorja Smith).mp3"
+Oct 25 07:15 : player: played "Chance_the_Rapper-Coloring_Book/Chance the Rapper - Coloring Book/08 - Angels (feat. Saba).mp3"
+Oct 25 07:18 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/01. Cardi B - Bodak Yellow.mp3"
+Oct 25 07:24 : player: played "J Cole - 4 Your Eyez Only (2016) Full Album Mp3 320Kbps Groo/06 Change.mp3"
+Oct 25 07:27 : player: played "Linkin Park - Hybrid Theory (2000)/07 By Myself.mp3"
+Oct 25 07:30 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Oct 25 07:31 : player: played "Future - DS2 (Deluxe) (2015) - WEB 320/09 - Slave Master.mp3"
+Oct 25 07:31 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 07:35 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/89. Ed Sheeran - Perfect.flac"
+Oct 25 07:35 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 07:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 07:40 : player: played "Fetty Wap - Fetty Wap (Deluxe) [Explicit] 2015 {MP3 Album}~{VBUc}/03 679 (feat. Monty).mp3"
+Oct 25 07:45 : player: played "Tory Lanez - I Told You (2016)/12-tory_lanez-all_the_girls.mp3"
+Oct 25 07:49 : player: played "Kevin Gates - By Any Means 2 (2017) (Mp3 320kbps) [Hunter]/Kevin Gates - By Any Means 2 (2017)/13 Jus Wanna.mp3"
+Oct 25 07:52 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/05 FEEL..mp3"
+Oct 25 08:00 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/16 Psilocybin (Love in Full Effect).mp3"
+Oct 25 08:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 08:00 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 08:00 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/16 Psilocybin (Love in Full Effect).mp3"
+Oct 25 08:04 : player: played "SremmLife/03 No Flex Zone.mp3"
+Oct 25 08:08 : player: played "Various Artists - Suicide Squad (2016)/09. Skylar Grey - Wreak Havoc.mp3"

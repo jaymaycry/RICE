@@ -58,7 +58,7 @@ rofi.yoffset:           0
 rofi.xoffset:           0
 rofi.width:             300
 rofi.opacity:           90
-rofi.font:              ShureTechMono\ Nerd\ Font 14
+rofi.font:              Roboto\ Mono 14
 
 Xft.autohint: 1
 Xft.lcdfilter: lcddefault
@@ -66,4 +66,33 @@ Xft.hintstyle: hintslight
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+
+xterm*faceName: Roboto Mono
+xterm*faceSize: 14
+xterm*loginshell: true
+xterm*savelines: 16384
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+xterm*foreground: #26a98b
+xterm*background: #070e14
+xterm*color0:  #0a0f14
+xterm*color1:  #c33027
+xterm*color2:  #26a98b
+xterm*color3:  #edb54b
+xterm*color4:  #195465
+xterm*color5:  #787c9b
+xterm*color6:  #33859d
+xterm*color7:  #98d1ce
+xterm*color8:  #25374a
+xterm*color9:  #c33027
+xterm*color10: #26a98b
+xterm*color11: #edb54b
+xterm*color12: #195465
+xterm*color13: #787c9b
+xterm*color14: #33859d
+xterm*color15: #98d1ce
+
+xterm*rightScrollBar: true
+xterm*ScrollBar: true
+xterm*scrollTtyOutput: false
 
