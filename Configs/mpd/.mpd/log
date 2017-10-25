@@ -10817,3 +10817,37 @@ Oct 24 09:23 : exception: Failed to open mixer for 'default detected output': no
 Oct 24 09:23 : player: played "EVOL/09 Program.mp3"
 Oct 24 09:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 24 09:23 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 19:37 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+Oct 24 19:37 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+xcb_connection_has_error() returned true
+Oct 24 19:37 : exception: Failed to play on "default detected output" (alsa): snd_pcm_writei() failed: Broken pipe
+Oct 24 19:37 : exception: Failed to open audio output
+Oct 24 19:37 : player: played "J Cole - Born Sinner (Deluxe Version)/J Cole - Chaining Day.mp3"
+Oct 24 19:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 19:39 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 24 19:39 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 19:43 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/48. Future - Mask Off.mp3"
+Oct 24 19:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Oct 24 19:45 : player: played "Lil Yachty - Teenage Emotions 2017.Mp3.320kbps.[Hunter]/Lil Yachty - Teenage Emotions (2017)/05 - Harley.mp3"
+Oct 24 19:45 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 19:47 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 19:50 : player: played "DJ Khaled - Grateful (2017) Mp3.320kbps [WR Music]/DJ Khaled - Grateful (2017) [Hunter]/04 Wild Thoughts (feat. Rihanna & Br.mp3"
+Oct 24 19:54 : player: played "J Cole - Born Sinner (Deluxe Version)/J Cole - Miss America.mp3"
+Oct 24 19:57 : player: played "Kevin Gates - By Any Means 2 (2017) (Mp3 320kbps) [Hunter]/Kevin Gates - By Any Means 2 (2017)/4 Fucking Right.mp3"
+Oct 24 20:08 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/02 DNA..mp3"
+Oct 24 20:11 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/08 HUMBLE..mp3"
+Oct 24 20:16 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/09 LUST..mp3"
+Oct 24 20:20 : player: played "Kevin Gates - Islah (2016)/06. Time for That.mp3"
+Oct 24 20:22 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 20:25 : player: played "Kevin Gates - Islah (2016)/10. One Thing.mp3"
+Oct 24 20:25 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 20:29 : player: played "The Weeknd - Starboy (2016)/01 Starboy (feat. Daft Punk).mp3"
+Oct 24 20:34 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 20:38 : player: played "The Weeknd - Starboy (2016)/10 Six Feet Under.mp3"
+Oct 24 20:50 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 20:52 : player: played "Revenge/01 Look At Me!.mp3"
+Oct 24 20:59 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 24 21:02 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/56. Marshmello - Silence (feat. Khalid).mp3"
+Oct 24 21:03 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM

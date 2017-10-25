@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:default detected output
 state: play
-current: 0
-time: 62.540000
+current: 112
+time: 4.980000
 random: 0
 repeat: 0
 single: 0
@@ -111,4 +111,26 @@ playlist_begin
 97:Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/35. Justin Bieber - Friends (feat. Bloodpop).mp3
 98:Future - HNDRXX (2017) Mp3 320Kbps Groo/04 Damage.mp3
 99:Future - FUTURE (2017) [Mp3~320Kbps]/Future - FUTURE (2017)/08. High Demand.mp3
+100:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/02 DNA..mp3
+101:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/01 BLOOD..mp3
+102:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/02 DNA..mp3
+103:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/03 YAH..mp3
+104:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/04 ELEMENT..mp3
+105:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/05 FEEL..mp3
+106:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/06 LOYALTY. (FEAT. RIHANNA.).mp3
+107:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/07 PRIDE..mp3
+108:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/08 HUMBLE..mp3
+109:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/09 LUST..mp3
+110:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/10 LOVE. (FEAT. ZACARI.).mp3
+111:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/11 XXX. (FEAT. U2.).mp3
+112:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/12 FEAR..mp3
+113:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/13 GOD..mp3
+114:Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/14 DUCKWORTH..mp3
+115:Kevin Gates - Islah (2016)/06. Time for That.mp3
+116:Kevin Gates - Islah (2016)/10. One Thing.mp3
+117:The Weeknd - Starboy (2016)/01 Starboy (feat. Daft Punk).mp3
+118:The Weeknd - Starboy (2016)/03 False Alarm.mp3
+119:The Weeknd - Starboy (2016)/10 Six Feet Under.mp3
+120:Revenge/01 Look At Me!.mp3
+121:Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/56. Marshmello - Silence (feat. Khalid).mp3
 playlist_end

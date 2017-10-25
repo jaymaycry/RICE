@@ -30,7 +30,7 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git paper-icon-theme
+yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git paper-icon-theme torrench
 
 echo Updating System
 sudo pacman -Syu
