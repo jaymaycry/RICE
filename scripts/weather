@@ -1,16 +1,14 @@
-#!/bin/python
+import pyowm
 # -*- coding: utf-8 -*-
 
-import requests
+owm = pyowm.OWM('1e2a5c80bec78c8269fdd3b4f7eb2930') 
+observation = owm.weather_at_place("Los Angeles, California")
+w = observation.get_weather()
+temperature = w.get_temperature()
+temperature = temperature['temp_max'] - 273.15
+status = w.get_status();
+icon_code = w.get_weather_code()
+icon = ""
+print status, int(temperature) 
 
-CITY = "5368361"
-API_KEY = "cd0418adf5567a151c25454dc457b8fc"
-UNITS = "Imperial)"
-UNIT_KEY = "F"
 
-REQ = requests.get("http://api.openweathermap.org/data/2.5/weather?id={}&appid={}&units={}".format(CITY, 
-API_KEY, UNITS))
-if REQ.status_code == 200:
-    CURRENT = REQ.json()["weather"][0]["description"].capitalize()
-    TEMP = int(float(REQ.json()["main"]["temp"]))
-print("{}, {} °{}".format(CURRENT, TEMP, UNIT_KEY))
