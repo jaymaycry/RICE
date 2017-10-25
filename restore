@@ -1,5 +1,5 @@
 #!/bin/bash
-cp -r ~/rice/config/home/* ~/
-cp -r ~/rice/config/.config/* ~/.config
+cp -r ~/rice/config/home/.* ~/
+cp -r ~/rice/config/.config/* ~/.config/
 
 echo Restore Complete
