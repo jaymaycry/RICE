@@ -10,7 +10,9 @@ sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
 echo Installing Base Programs
-sudo pacman -S rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm xfce4-terminal libreoffice-fresh gparted net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
+sudo pacman -S rsync rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit 
+xarchiver 
+pcmanfm xfce4-terminal libreoffice-fresh gparted net-tools git deluge compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
 
 echo Install Virtual Utils
 sudo pacman -S qemu virt-manager virtviewer dnsmasq iptables vde2 bridge-utils openbsd-netcat ebtables iptables
@@ -30,7 +32,7 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git paper-icon-theme torrench
+yaourt -S i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git cower-git paper-icon-theme torrench arch-wiki-cli
 
 echo Updating System
 sudo pacman -Syu
@@ -39,3 +41,4 @@ echo Creating Mount Folders Media, Media2, Data
 sudo mkdir /mnt/Media
 sudo mkdir /mnt/Media2
 sudo mkdir /mnt/Data
+sudo mkdir /mnt/usb

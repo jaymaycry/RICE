@@ -194,6 +194,9 @@ else
 fi
 
 # Directory management
+alias mount="sudo mount"
+alias disks="sudo fdisk -l"
+alias torrents="cd /mnt/Data/Downloads/Torrents"
 alias htop="htop -d 0"
 alias reload="i3-msg reload"
 alias config="nano ~/.config/i3/config"
