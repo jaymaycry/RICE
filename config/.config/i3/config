@@ -1,11 +1,23 @@
 # Autostart Programs
-exec xrandr -r 144
-exec compton --config ~/.compton.conf -b
-exec xsetroot -cursor_name left_ptr
-exec polybar -r top & polybar -r bottom
+# System Programs
+exec --no-startup-id xrandr -r 144
+exec --no-startup-id compton --config ~/.compton.conf -b
+exec --no-startup-id xsetroot -cursor_name left_ptr
+exec --no-startup-id polybar -r top & polybar -r bottom
+exec --no-startup-id ~/rice/scripts/blur &
 
-# Set Wallpaper
-exec feh --bg-tile ~/rice/bg/red.jpg
+# Workspaces
+exec --no-startup-id firefox
+exec --no-startup-id i3-msg 'workspace 2; exec termite -e ranger'
+exec --no-startup-id i3-msg 'workspace 4; exec termite -e cava'
+exec --no-startup-id i3-msg 'workspace 4; exec termite -e music'
+exec --no-startup-id i3-msg 'workspace 5; exec termite -e rtorrent'
+#exec --no-startup-id i3-msg 'workspace 1; exec termite'
+#exec --no-startup-id i3-msg 'workspace 1; exec termite'
+exec --no-startup-id i3-msg 'workspace 6; exec virt-manager'
+exec --no-startup-id i3-msg workspace 1
+# Wallpaper
+exec feh --bg-tile ~/rice/bg/bg12.jpg
 
 # lock screen
 bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
@@ -21,28 +33,24 @@ client.focused_inactive #0a0f14 #0a0f14 #0a0f14 #0a0f14 #0a0f14
 client.unfocused        #0a0f14 #0a0f14 #0a0f14 #0a0f14 #0a0f14
 
 # Remove Window Borders
-new_window pixel 1
-new_float pixel 1
+new_window pixel 0
+new_float pixel 0
 
 set $mod Mod1
 
 # Font for window titles
 font pango:ShureTechMono\ Nerd\ Font 11
 
-# custom variables for workspaces
-set $ws1 "1< Ts >"
-set $ws2 "2< FM "
-set $ws3 "3< Web >"
-set $ws4 4
-set $ws5 5
-set $ws6 6
-set $ws7 7
-set $ws8 8
-set $ws9 9
+# Workspace names
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
+set $workspace5 "5"
 
 # Assign Workspaces:
-#assign [class="Firefox"] $ws3
-#assign [class="Chromium"] $ws3
+assign [class="Firefox"] $workspace3
+#assign [class="ranger"] $workspace2
 #assign [class="Google-chrome-beta"] $ws3
 #assign [class="^Geany"] $ws1
 
@@ -192,3 +200,19 @@ mode "$mode_gaps_outer" {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+#=======================================================================
+#                             Mouse integration
+#=======================================================================
+
+# Hide the mouse when it's not moving
+exec --no-startup-id unclutter
+
+# Mod + rmb over titlebar toggles floating mode
+bindsym $mod+button3 floating toggle
+
+# The middle button over a titlebar kills the window
+bindsym --release button2 kill
+
+# Mouse hovering shouldn't dictate mouse focus
+focus_follows_mouse no

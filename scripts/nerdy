@@ -11,6 +11,7 @@ blu="\e[34m"
 prp="\e[35m"
 bprp="\e[35;1m"
 rst="\e[0m"
+blk="\e[30m"
 
 color-echo()
 {  # print with colors
@@ -35,4 +36,4 @@ color-echo 'Distro' 'Arch v9k'
 #echo -e "        "
 
 # colors
-echo -e " $red$rst $grn$rst $blu$rst $ylw$rst $cyn$rst $prp$rst $bprp$rst"
+echo -e " $blk$rst $red$rst $grn$rst $blu$rst $ylw$rst $cyn$rst $prp$rst $bprp$rst"

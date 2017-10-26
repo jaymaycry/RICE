@@ -15109,3 +15109,34 @@ Oct 26 02:04 : exception: OutputThread could not get realtime scheduling, contin
 Oct 26 02:08 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/06 R.I.C.O. (feat. Drake).mp3"
 Oct 26 02:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 26 02:09 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/06 R.I.C.O. (feat. Drake).mp3"
+Oct 26 02:58 : player: played "Machine Gun Kelly - Bloom (2017) [Mp3~320kbps]/Machine Gun Kelly - Bloom (2017)/13. 27.mp3"
+Oct 26 05:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 05:36 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/28. Kesha - Praying.mp3"
+Oct 26 05:40 : player: played "18 I Feel It Coming (feat. Daft Punk.mp3"
+Oct 26 05:44 : player: played "Bryson Tiller - True to Self (2017)/18. Somethin Tells Me.mp3"
+Oct 26 05:48 : player: played "Nirvana - Greatest Hits (2002) vtwin88cube/09.Heart Shaped Box.mp3"
+Oct 26 05:59 : player: played "Painting Pictures/17 Why They Call You Kodak.mp3"
+Oct 26 05:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 06:02 : player: played "Painting Pictures/17 Why They Call You Kodak.mp3"
+Oct 26 06:06 : player: played "Kanye West - The College Dropout [Remastered] (2004) mp3@320 vtwin88cube/20.Family Business.mp3"
+Oct 26 06:10 : player: played "Painting Pictures/11 Corrlinks and JPay.mp3"
+Oct 26 06:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 06:17 : player: played "Recovery[2010]/13-eminem-so_bad-fum.mp3"
+Oct 26 06:26 : player: played "Under Pressure (Deluxe Version)/11 Under Pressure.mp3"
+Oct 26 07:05 : player: played "Mac Miller - The Divine Feminine (2016) 320/02. Dang! (feat. Anderson .Paak).mp3"
+Oct 26 07:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 07:06 : player: played "Mac Miller - The Divine Feminine (2016) 320/02. Dang! (feat. Anderson .Paak).mp3"
+Oct 26 12:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 12:32 : player: played "Mac Miller - The Divine Feminine (2016) 320/02. Dang! (feat. Anderson .Paak).mp3"
+Oct 26 12:34 : player: played "Kevin Gates - By Any Means 2 (2017) (Mp3 320kbps) [Hunter]/Kevin Gates - By Any Means 2 (2017)/12 No Trust.mp3"
+Oct 26 12:38 : player: played "XXXTENTACION - 17 (Upload Martinx)/07. Dead Inside (Interlude).mp3"
+Oct 26 12:43 : player: played "Under Pressure (Deluxe Version)/05 Buried Alive.mp3"
+Oct 26 12:47 : player: played "Machine Gun Kelly - Bloom (2017) [Mp3~320kbps]/Machine Gun Kelly - Bloom (2017)/04. At My Best (Ft. Hailee Steinfeld).mp3"
+Oct 26 12:49 : player: played "Drake - More Life [2017]/2 No Long Talk (feat. Giggs).mp3"
+Oct 26 12:52 : player: played "Bryson Tiller - True to Self (2017)/06. You Got It.mp3"
+Oct 26 12:56 : player: played "Kanye West - Graduation (2007)/09 Flashing Lights (feat Dwele).mp3"
+Oct 26 12:59 : player: played "Post Malone - August 26th/05 - Fuck (feat Jeremih).mp3"
+Oct 26 13:02 : player: played "Section.80/02 Hold Up.mp3"
+Oct 26 13:06 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/02. Post Malone (feat. 21 Savage) - rockstar.mp3"
+Oct 26 13:10 : player: played "The xx - I See You [2017]/10 Test Me.mp3"
+Oct 26 13:14 : player: played "Nirvana - Greatest Hits (2002) vtwin88cube/10.Pennyroyal Tea.mp3"

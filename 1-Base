@@ -13,7 +13,7 @@ sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
 echo Installing Base Programs
-sudo pacman -S fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
+sudo pacman -S unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr vlc feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
 
 echo Install Virtual Utils
 sudo pacman -S qemu virt-manager virtviewer dnsmasq iptables vde2 bridge-utils openbsd-netcat ebtables iptables
@@ -43,6 +43,10 @@ sudo mkdir /mnt/Media
 sudo mkdir /mnt/Media2
 sudo mkdir /mnt/Data
 sudo mkdir /mnt/usb
+
+echo Setting Up Git Identity
+git config --global user.name "Kory Freese"
+git config --global user.email koryfreese@gmail.com
 
 echo Disable Screen Timeout
 xset -dpms
