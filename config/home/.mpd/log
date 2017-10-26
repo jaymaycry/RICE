@@ -15004,3 +15004,67 @@ Oct 25 10:57 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [
 Oct 25 11:00 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/08 - Sweatpants.mp3"
 Oct 25 11:03 : player: played "Linkin Park - Meteora (2003)/02 Don't Stay.mp3"
 Oct 25 11:07 : player: played "Under Pressure (Deluxe Version)/08 Never Enough.mp3"
+Oct 25 13:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:39 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+Oct 25 13:39 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+Oct 25 13:40 : player: played "Under Pressure (Deluxe Version)/08 Never Enough.mp3"
+Oct 25 13:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:40 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 25 13:40 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 13:40 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 13:40 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 13:40 : exception: Failed to open "Headphones" (alsa)
+Oct 25 13:40 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 25 13:40 : exception: Failed to open "Headphones" (alsa)
+Oct 25 13:40 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 25 13:40 : exception: Failed to open "Headphones" (alsa)
+Oct 25 13:40 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 25 13:43 : client: Max connections reached
+Oct 25 13:45 : player: played "Kanye West – The Life Of Pablo (T.L.O.P.) 2016/13. Kanye West - Wolves.mp3"
+Oct 25 13:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Oct 25 13:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Oct 25 13:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Oct 25 13:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Oct 25 13:45 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: moov atom not found
+Oct 25 13:45 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 25 13:47 : player: played "2014 Forest Hills Drive/06 Fire Squad.mp3"
+Oct 25 13:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:47 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 25 13:47 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 13:47 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 13:47 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 13:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 13:49 : exception: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 25 13:49 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 13:49 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 13:49 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 14:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 14:03 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 14:03 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 14:03 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 14:04 : player: played "2014 Forest Hills Drive/12 Love Yourz.mp3"
+Oct 25 14:06 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/05 FEEL..mp3"
+Oct 25 14:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 14:06 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 14:06 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 14:06 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 14:06 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/05 FEEL..mp3"
+Oct 25 14:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 14:09 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 14:09 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 14:09 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 14:10 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/05 FEEL..mp3"
+Oct 25 14:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 14:11 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 14:11 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 14:11 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 14:11 : player: played "Kendrick Lamar - DAMN. (2017) [Mp3~320kbps]/Kendrick Lamar - DAMN. (2017)/05 FEEL..mp3"
+Oct 25 14:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 14:12 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 14:12 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 14:12 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 14:33 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/17 - Pink Toes (feat. Jhene Aiko).mp3"
+Oct 25 14:57 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/18 - Earth The Oldest Computer (The Last Night) (feat. Macklemore).mp3"

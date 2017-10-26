@@ -12,7 +12,7 @@ bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
 
 #Window Gaps
 gaps inner 15
-gaps outer 5
+gaps outer 0
 #smart_gaps off
 
 # class                 border  	backgr.       text_indicator 	child_border
@@ -28,6 +28,23 @@ set $mod Mod1
 
 # Font for window titles
 font pango:ShureTechMono\ Nerd\ Font 11
+
+# custom variables for workspaces
+set $ws1 "1< Ts >"
+set $ws2 "2< FM "
+set $ws3 "3< Web >"
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+
+# Assign Workspaces:
+#assign [class="Firefox"] $ws3
+#assign [class="Chromium"] $ws3
+#assign [class="Google-chrome-beta"] $ws3
+#assign [class="^Geany"] $ws1
 
 
 # Use Mouse+$mod to drag floating windows to their wanted position

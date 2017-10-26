@@ -8,7 +8,7 @@ export LANG=en_US.UTF-8
 
 ZSH_THEME="kardan"
 
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 
 COMPLETION_WAITING_DOTS="true"
 
@@ -133,6 +133,7 @@ else
 fi
 
 # Directory management
+alias tseach="torrench -t --copy"
 alias mount="sudo mount"
 alias disks="sudo fdisk -l"
 alias torrents="cd /mnt/Data/Downloads/Torrents"

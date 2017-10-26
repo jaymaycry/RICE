@@ -1,4 +1,6 @@
 mpd_music_dir = "/mnt/Media/Music"
+#mpd_host = "10.0.0.22"
+#mpd_port = "6600"
 # Display ..
 song_list_format = " $0%n $1• $8%t $R$0%a "
 song_columns_list_format = "(75)[green]{t}(25)[white]{a}"
@@ -6,7 +8,7 @@ song_status_format = " $3%t $0 $1%a "
 playlist_display_mode = "columns" (classic/columns)
 
 # Now Playing ..
-now_playing_prefix = "$3>>"
+now_playing_prefix = "$3->"
 now_playing_suffix = "$8$/b"
 
 # Playlist ..
@@ -36,11 +38,11 @@ main_window_highlight_color = "red"
 display_bitrate = "yes"
 autocenter_mode = "yes"
 centered_cursor = "yes"
-titles_visibility = "no"
-statusbar_visibility = "no"
+titles_visibility = "yes"
+statusbar_visibility = "yes"
 empty_tag_marker=" -- ‼ -- " 
 mouse_support = "yes"
 header_visibility = "yes"
-display_remaining_time = "no"
+display_remaining_time = "yes"
 ask_before_clearing_playlists = "no"
 discard_colors_if_item_is_selected = "no"
