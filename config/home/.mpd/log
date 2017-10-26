@@ -15068,3 +15068,44 @@ Oct 25 14:12 : config: option 'mixer_control' on line 33 was not recognized
 Oct 25 14:12 : config: option 'mixer_index' on line 34 was not recognized
 Oct 25 14:33 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/17 - Pink Toes (feat. Jhene Aiko).mp3"
 Oct 25 14:57 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/18 - Earth The Oldest Computer (The Last Night) (feat. Macklemore).mp3"
+Oct 25 23:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 23:32 : config: option 'mixer_device' on line 32 was not recognized
+Oct 25 23:32 : config: option 'mixer_control' on line 33 was not recognized
+Oct 25 23:32 : config: option 'mixer_index' on line 34 was not recognized
+Oct 25 23:32 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/15 - Zealots Of Stockholm (Free Information).mp3"
+Oct 25 23:37 : player: played "2014 Forest Hills Drive/05 A Tale of 2 Citiez.mp3"
+Oct 26 01:25 : player: played "2014 Forest Hills Drive/12 Love Yourz.mp3"
+Oct 26 01:44 : player: played "Gucci Mane - Droptopwop (2017)/02. Tho.mp3"
+Oct 26 01:47 : player: played "Linkin Park - Hybrid Theory (2000)/05 Crawling.mp3"
+Oct 26 01:48 : player: played "The Marshall Mathers LP/01 Public Service Announcement 2000.mp3"
+Oct 26 01:51 : player: played "DJ Khaled - Grateful (2017) Mp3.320kbps [WR Music]/DJ Khaled - Grateful (2017) [Hunter]/07 It's Secured (feat. Nas & Travis.mp3"
+Oct 26 01:55 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/10 UnFazed (feat. The Weeknd).mp3"
+Oct 26 01:58 : exception: Failed to open "Headphones" (alsa)
+Oct 26 01:58 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 01:58 : exception: Failed to open "Headphones" (alsa)
+Oct 26 01:58 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 01:58 : exception: Failed to open "Headphones" (alsa)
+Oct 26 01:58 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 01:58 : exception: Failed to open "Headphones" (alsa)
+Oct 26 01:58 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 01:58 : exception: Failed to open "Headphones" (alsa)
+Oct 26 01:58 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 01:58 : exception: Failed to open "Headphones" (alsa)
+Oct 26 01:58 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:00 : exception: Failed to open "Headphones" (alsa)
+Oct 26 02:00 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:00 : exception: Failed to open "Headphones" (alsa)
+Oct 26 02:00 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:00 : exception: Failed to open "Headphones" (alsa)
+Oct 26 02:00 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:00 : exception: Failed to open "Headphones" (alsa)
+Oct 26 02:00 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:00 : exception: Failed to open "Headphones" (alsa)
+Oct 26 02:00 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:00 : exception: Failed to open "Headphones" (alsa)
+Oct 26 02:00 : exception: nested: Failed to open ALSA device "hw:0,0": Device or resource busy
+Oct 26 02:04 : player: played "JAY-Z - 4;44 (2017) [320]/10. Legacy.mp3"
+Oct 26 02:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 02:08 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/06 R.I.C.O. (feat. Drake).mp3"
+Oct 26 02:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 02:09 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/06 R.I.C.O. (feat. Drake).mp3"

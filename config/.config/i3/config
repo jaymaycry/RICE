@@ -2,7 +2,7 @@
 exec xrandr -r 144
 exec compton --config ~/.compton.conf -b
 exec xsetroot -cursor_name left_ptr
-exec polybar top
+exec polybar -r top & polybar -r bottom
 
 # Set Wallpaper
 exec feh --bg-tile ~/rice/bg/red.jpg

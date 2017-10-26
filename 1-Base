@@ -4,6 +4,9 @@ echo Setting Locale
 localedef -f UTF-8 -i en_US en_US.UTF-8
 
 echo Setting Up Network
+sudo systemctl enable dhcpcd@enp0s31f6.service
+sudo start dhcpcd@enp0s31f6.service
+
 sudo pacman -S ifplugd
 #replace enp3s0 with the identifier of your network interface.
 sudo systemctl enable netctl-ifplugd@enp0s31f6.service
