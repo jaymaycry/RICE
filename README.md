@@ -12,6 +12,6 @@
 #### - File Manager: Ranger
 #### - Launcher: Rofi
 #### - Window Manager: I3-Gaps
-#### - Torrent Client: Deluge
+#### - Torrent Client: Rtorrent
 #### - DeskBar: Polybar
 #### - Image Viewer: Feh
