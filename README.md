@@ -1,4 +1,4 @@
-## Sublimes HomeBase Arch Build
+##[i3-gaps] My Subline RICE Config
 
 
 ![alt text](/IMG/workflow.gif "Simple.")
