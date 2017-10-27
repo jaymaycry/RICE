@@ -1,7 +1,7 @@
 ## Sublimes HomeBase Arch Build
 
 
-![alt text](/IMG/screenshot3.png "Simple.")
+![alt text](/IMG/workflow.gif "Simple.")
 
 ### ---------- Programs In Use ----------
 
