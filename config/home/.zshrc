@@ -1,4 +1,4 @@
-echo "\e[3m$(fortune -sa)\e[0m\n" # display a random short quote at start
+#echo "\e[3m$(fortune -sa)\e[0m\n" # display a random short quote at start
 
 export DEFAULT_USER="sublime"
 export LANG=en_US.UTF-8
@@ -6,7 +6,8 @@ export LANG=en_US.UTF-8
 # Path to your oh-my-zsh installation.
   export ZSH=/home/sublime/.oh-my-zsh
 
-ZSH_THEME="kardan"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="kardan"
 
 ENABLE_CORRECTION="false"
 
@@ -15,6 +16,37 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(completion git sudo last-working-dir lol copydir copyfile autojump history)
 
 source $ZSH/oh-my-zsh.sh
+
+# =============================================================================
+#                                   POWERLEVEL9K
+# =============================================================================
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable rbenv vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs)
+
+
+
+POWERLEVEL9K_VCS_CLEAN_BACKGROUND="green"
+POWERLEVEL9K_VCS_CLEAN_FOREGROUND="black"
+POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="red"
+POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND="black"
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="red"
+POWERLEVEL9K_VCS_MODIFIED_FOREGROUND="black"
+
+POWERLEVEL9K_DIR_HOME_BACKGROUND="green"
+POWERLEVEL9K_DIR_HOME_FOREGROUND="black"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="green"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="black"
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="green"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="black"
+POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND="white"
+POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="black"
+POWERLEVEL9K_DISK_USAGE_ONLY_WARNING=false
+POWERLEVEL9K_DISK_USAGE_WARNING_LEVEL=90
+POWERLEVEL9K_DISK_USAGE_CRITICAL_LEVEL=95
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="> "
 
 # =============================================================================
 #                                   Plugins
@@ -28,6 +60,7 @@ fi
 source ~/.zplug/init.zsh
 
 #zplug "plugins/bundler", from:oh-my-zsh, if:"which bundle"
+zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
 zplug "plugins/extract", from:oh-my-zsh
 zplug "plugins/fancy-ctrl-z", from:oh-my-zsh
 zplug "plugins/git", from:oh-my-zsh, if:"which git"
