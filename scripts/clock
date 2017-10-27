@@ -1,3 +1,2 @@
 #!/bin/bash
-echo Current Time
-date +"%r"
+tty-clock -n -c -t

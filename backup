@@ -18,6 +18,7 @@ cp -r ~/.ncmpcpp ~/rice/config/home/
 cp -r ~/.themes ~/rice/config/home/
 cp -r ~/.icons ~/rice/config/home/
 cp -r ~/.local/share/fonts ~/rice/config/home/
+cp -r ~/.i3 ~/rice/config/home/
 cp  ~/.gitconfig ~/rice/config/home/
 cp  ~/.compton.conf ~/rice/config/home/
 cp  ~/.vimrc ~/rice/config/home/
