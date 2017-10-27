@@ -21,11 +21,21 @@ source $ZSH/oh-my-zsh.sh
 #                                   POWERLEVEL9K
 # =============================================================================
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir dir_writable rbenv vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
+
+POWERLEVEL9K_MODE='nerdfont-complete'
+
+POWERLEVEL9K_LINUX_ICON=$' \uf300 '
+POWERLEVEL9K_HOME_ICON=$'\uf015'
+POWERLEVEL9K_HOME_SUB_ICON=$'\uf114'
+POWERLEVEL9K_FOLDER_ICON=$' \uf114'
 
 
-
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
+POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
+POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=$'\uf432 '
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND="green"
 POWERLEVEL9K_VCS_CLEAN_FOREGROUND="black"
 POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND="red"
@@ -33,21 +43,27 @@ POWERLEVEL9K_VCS_UNTRACKED_FOREGROUND="black"
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND="red"
 POWERLEVEL9K_VCS_MODIFIED_FOREGROUND="black"
 
-POWERLEVEL9K_DIR_HOME_BACKGROUND="green"
+
+POWERLEVEL9K_OS_ICON_BACKGROUND="red"
+POWERLEVEL9K_OS_ICON_FOREGROUND="black"
+POWERLEVEL9K_DIR_HOME_BACKGROUND="white"
 POWERLEVEL9K_DIR_HOME_FOREGROUND="black"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="green"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND="white"
 POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="black"
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="green"
+POWERLEVEL9K_DIR_DEFAULT_BACKGROUND="white"
 POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="black"
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND="white"
+POWERLEVEL9K_STATUS_OK_BACKGROUND="green"
+POWERLEVEL9K_STATUS_OK_FOREGROUND="black"
+POWERLEVEL9K_STATUS_ERROR_BACKGROUND="red"
+POWERLEVEL9K_STATUS_ERROR_FOREGROUND="black"
+POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND="red"
 POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="black"
 POWERLEVEL9K_DISK_USAGE_ONLY_WARNING=false
 POWERLEVEL9K_DISK_USAGE_WARNING_LEVEL=90
 POWERLEVEL9K_DISK_USAGE_CRITICAL_LEVEL=95
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="> "
-
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=false
 # =============================================================================
 #                                   Plugins
 # =============================================================================
@@ -254,3 +270,36 @@ bindkey "^[[1;5D" backward-word
 [[ -f ~/.zshrc.alias ]] && source ~/.zshrc.alias
 
 # vim: ft=zsh
+
+# =============================================================================
+#                                Key Bindings
+# =============================================================================
+
+# Common CTRL bindings.
+bindkey "^a" beginning-of-line
+bindkey "^e" end-of-line
+bindkey "^f" forward-word
+bindkey "^b" backward-word
+bindkey "^k" kill-line
+bindkey "^d" delete-char
+bindkey "^y" accept-and-hold
+bindkey "^w" backward-kill-word
+bindkey "^u" backward-kill-line
+bindkey "^R" history-incremental-pattern-search-backward
+bindkey "^F" history-incremental-pattern-search-forward
+
+# History
+if zplug check "zsh-users/zsh-history-substring-search"; then
+	zmodload zsh/terminfo
+	bindkey "$terminfo[kcuu1]" history-substring-search-up
+	bindkey "$terminfo[kcud1]" history-substring-search-down
+	#bindkey -M emacs "^P" history-substring-search-up
+	#bindkey -M emacs "^N" history-substring-search-down
+	#bindkey -M vicmd "k" history-substring-search-up
+	#bindkey -M vicmd "j" history-substring-search-down
+	bindkey "^[[1;5A" history-substring-search-up
+	bindkey "^[[1;5B" history-substring-search-down
+fi
+
+# Do not require a space when attempting to tab-complete.
+bindkey "^i" expand-or-complete-prefix
