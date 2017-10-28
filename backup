@@ -27,7 +27,6 @@ cp  ~/.Xauthority ~/rice/config/home/
 cp  ~/.xinitrc ~/rice/config/home/
 cp  ~/.Xresources ~/rice/config/home/
 cp  ~/.zshrc ~/rice/config/home/
-cp  ~/.zsh_history ~/rice/config/home/
 cp -r ~/.rtorrent.session ~/rice/config/home
 cp -r ~/.vim ~/rice/config/home
 echo Backup Complete
