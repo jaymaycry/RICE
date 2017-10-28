@@ -26999,3 +26999,13 @@ Oct 28 01:41 : exception: OutputThread could not get realtime scheduling, contin
 Oct 28 01:44 : player: played "Drake - More Life [2017]/21 Ice Melts (feat. Young Thug).mp3"
 Oct 28 01:47 : player: played "EVOL/01 Ain't No Time.mp3"
 Oct 28 01:52 : player: played "Kanye West - Graduation (2007)/08 Drunk and Hot Girls (feat Mos Def).mp3"
+Oct 28 01:57 : player: played "The Marshall Mathers LP/08 The Real Slim Shady.mp3"
+Oct 28 02:02 : player: played "J Cole - 4 Your Eyez Only (2016) Full Album Mp3 320Kbps Groo/08 Foldin Clothes.mp3"
+Oct 28 02:06 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/73. Jacquees - B.E.D..mp3"
+Oct 28 02:11 : player: played "Kendrick Lamar -To Pimp a Butterfly (2015) [WEB]/05. These Walls.mp3"
+Oct 28 02:11 : player: played "50 Cent (2003) - Get Rich Or Die Tryin/01. Intro.mp3"
+Oct 28 02:12 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Oct 28 02:12 : player: played "EVOL/11 Fly Shit Only.mp3"
+Oct 28 02:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 02:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 02:16 : player: played "EVOL/11 Fly Shit Only.mp3"
