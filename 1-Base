@@ -34,7 +34,7 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S bashmount i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock
+yaourt -S woeusb-git bashmount i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock
 
 echo Updating System
 sudo pacman -Syu
