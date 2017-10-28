@@ -47,9 +47,9 @@ font-0 = Shure\ Tech\ Mono\ Nerd\ Font:pixelsize=14;3
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;0
 
-modules-left = i3 separator
+modules-left = i3
 modules-center = date
-modules-right = separator cpu separator memory separator eth separator volume separator powermenu 
+modules-right = cpu separator memory separator eth separator volume separator powermenu 
 
 tray-position = right
 tray-padding = 2
@@ -83,9 +83,9 @@ font-2 = siji:pixelsize=10;0
 
 modules-left = mpd
 modules-center = filesystem
-modules-right =  separator bitcoin
+modules-right =  bitcoin
 
-tray-position =
+tray-position = 
 tray-padding =
 
 [module/xwindow]
@@ -95,12 +95,15 @@ label = %title:0:30:...%
 [module/filesystem]
 type = internal/fs
 interval = 25
-mount-0 = /mnt/Data
-mount-1 = /mnt/Media
-mount-2 = /mnt/Media2
+mount-0 = /
+mount-1 = /mnt/Data
+mount-2 = /mnt/Media
+mount-3 = /mnt/Media2
 
-label-mounted = %{colors.foreground-alt}%mountpoint%%{F-}: %percentage_used%%
-label-unmounted = %mountpoint% not mounted
+spacing = 2
+format-mounted = <label-mounted>
+label-mounted = %{colors.foreground-alt}%mountpoint% %free%
+label-unmounted = %mountpoint% -
 label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
@@ -126,8 +129,9 @@ label-empty-padding = 2
 type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
-wrapping-scroll = true
-strip-wsnumbers = true
+wrapping-scroll = false
+strip-wsnumbers = false
+reverse-scroll = false
 
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true

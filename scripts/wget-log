@@ -1,0 +1,74 @@
+Reusing existing connection to 76.92.66.82:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 5199 (5.1K) [text/html]
+Saving to: ‘/mnt/Media2/opendirectories/76.92.66.82/MUSIC/ORIG/A/A Country Christmas with the Stars of Nashville/index.html?C=D;O=A.tmp’
+
+
+
+2017-10-28 10:39:22 (904 KB/s) - ‘/mnt/Media2/opendirectories/76.92.66.82/MUSIC/ORIG/A/A Country Christmas with the Stars of Nashville/index.html?C=D;O=A.tmp’ saved [5199/5199]
+
+Removing /mnt/Media2/opendirectories/76.92.66.82/MUSIC/ORIG/A/A Country Christmas with the Stars of Nashville/index.html?C=D;O=A.tmp since it should be rejected.
+
+--2017-10-28 10:39:22--  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2004%20-%20The%20First%20Noel%20(Bill%20Anderson).mp3
+Reusing existing connection to 76.92.66.82:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3567642 (3.4M) [audio/mpeg]
+Saving to: ‘/mnt/Media2/opendirectories/76.92.66.82/MUSIC/ORIG/A/A Country Christmas with the Stars of Nashville/Bill Anderson - A Country Christmas with the Stars of Nashville - 04 - The First Noel (Bill Anderson).mp3’
+
+
+
+2017-10-28 10:40:24 (57.0 KB/s) - ‘/mnt/Media2/opendirectories/76.92.66.82/MUSIC/ORIG/A/A Country Christmas with the Stars of Nashville/Bill Anderson - A Country Christmas with the Stars of Nashville - 04 - The First Noel (Bill Anderson).mp3’ saved [3567642/3567642]
+
+--2017-10-28 10:40:24--  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Reusing existing connection to 76.92.66.82:80.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 10:55:25--  (try: 2)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 10:56:48--  (try: 3)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 11:11:51--  (try: 4)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 11:26:55--  (try: 5)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:28:22--  (try: 6)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:29:50--  (try: 7)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:31:18--  (try: 8)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:32:48--  (try: 9)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:34:17--  (try:10)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:35:49--  (try:11)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... 
