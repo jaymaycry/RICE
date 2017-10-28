@@ -1,11 +1,11 @@
 #!/bin/bash
 
 echo Setting Locale
-localedef -f UTF-8 -i en_US en_US.UTF-8
+sudo localedef -f UTF-8 -i en_US en_US.UTF-8
 
 echo Setting Up Network
 sudo systemctl enable dhcpcd@enp0s31f6.service
-sudo start dhcpcd@enp0s31f6.service
+sudo systemctl start dhcpcd@enp0s31f6.service
 
 sudo pacman -S ifplugd
 #replace enp3s0 with the identifier of your network interface.
@@ -13,7 +13,7 @@ sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
 echo Installing Base Programs
-sudo pacman -S udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
+sudo pacman -S ranger udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite
 
 echo Install Virtual Utils
 sudo pacman -S qemu virt-manager virtviewer dnsmasq iptables vde2 bridge-utils openbsd-netcat ebtables iptables
