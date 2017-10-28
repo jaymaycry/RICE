@@ -4,7 +4,7 @@ export DEFAULT_USER="sublime"
 export LANG=en_US.UTF-8
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/sublime/.oh-my-zsh
+export ZSH=/home/sublime/.oh-my-zsh
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="kardan"
@@ -184,6 +184,8 @@ else
 fi
 
 # Directory management
+alias randomdisk="sudo dd if=/dev/urandom | pv | sudo dd of=/dev/"
+alias zerodisk="sudo dd if=/dev/zero | pv | sudo dd of=/dev/"
 alias torrent="torrench -t --copy"
 alias rice="cd ~/rice"
 alias mount="sudo mount"
@@ -305,3 +307,6 @@ fi
 
 # Do not require a space when attempting to tab-complete.
 bindkey "^i" expand-or-complete-prefix
+if [ -z "$DISPLAY" ] && [ -n "$XDG_VTNR" ] && [ "$XDG_VTNR" -eq 1 ]; then
+  exec startx
+fi

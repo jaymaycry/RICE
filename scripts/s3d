@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /opt/Simplify3D-4.0.0/
+sudo LD_PRELOAD=./Interface.so ./Simplify3D

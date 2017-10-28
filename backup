@@ -28,4 +28,5 @@ cp  ~/.xinitrc ~/rice/config/home/
 cp  ~/.Xresources ~/rice/config/home/
 cp  ~/.zshrc ~/rice/config/home/
 cp -r ~/.vim ~/rice/config/home
+cp -r ~/.config/dunst ~/rice/config/.config/
 echo Backup Complete
