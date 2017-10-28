@@ -26962,3 +26962,38 @@ Oct 27 08:13 : player: played "Kevin Gates - Islah (2016)/16. Jam (feat. Trey So
 Oct 27 08:17 : player: played "Fetty Wap - Fetty Wap (Deluxe) [Explicit] 2015 {MP3 Album}~{VBUc}/16 Rock My Chain (feat. M80).mp3"
 Oct 27 08:21 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/10 Voices In My Head _ Stick To the.mp3"
 Oct 27 08:25 : player: played "Young Thug - BEAUTIFUL THUGGER GIRLS (2017) Mp3.320kbps [WR Music]/Young Thug - BEAUTIFUL THUGGER GIRLS (2017) [Hunter]/10 Feel It.mp3"
+Oct 27 08:28 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/12. Sad Boy.mp3"
+Oct 27 08:29 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Oct 27 08:29 : player: played "Imagine Dragons - Evolve (Deluxe Edition) (2017) Mp3.320kbps [WR Music]/Imagine Dragons - Evolve (Deluxe Edition) (2017)/07. Yesterday.mp3"
+Oct 27 09:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 09:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 10:33 : player: played "Various Artists - Suicide Squad (2016)/08. Eminem - Without Me.mp3"
+Oct 27 10:36 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/49. Thomas Rhett - Unforgettable.mp3"
+Oct 27 11:31 : player: played "Kanye West - Yeezus - 320kbps/07 Blood On The Leaves.mp3"
+Oct 27 22:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 23:24 : player: played "Kanye West - Yeezus - 320kbps/07 Blood On The Leaves.mp3"
+Oct 27 23:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 23:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 23:31 : player: played "Kanye West - Yeezus - 320kbps/07 Blood On The Leaves.mp3"
+Oct 27 23:34 : player: played "Linkin Park - Hybrid Theory (2000)/09 A Place for My Head.mp3"
+Oct 27 23:36 : player: played "Migos - 2017 - Culture [WEB] {320}/01 - Migos - Culture (feat. DJ Khaled).mp3"
+Oct 27 23:39 : player: played "XXXTENTACION - 17 (Upload Martinx)/10. Orlando.mp3"
+Oct 27 23:43 : player: played "The Weeknd - Starboy (2016)/10 Six Feet Under.mp3"
+Oct 27 23:45 : player: played "Revenge/07 YuNg BrAtZ.mp3"
+Oct 27 23:48 : player: played "Kevin Gates - By Any Means 2 (2017) (Mp3 320kbps) [Hunter]/Kevin Gates - By Any Means 2 (2017)/7 GOMD.mp3"
+Oct 27 23:54 : player: played "Kanye West – The Life Of Pablo (T.L.O.P.) 2016/15. Kanye West - 30 Hours.mp3"
+Oct 27 23:57 : player: played "Drake - More Life [2017]/9 Gyalchester.mp3"
+Oct 28 00:00 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/88. Blake Shelton - Ill Name the Dogs.mp3"
+Oct 28 00:03 : player: played "Linkin Park - Meteora (2003)/05 Hit the Floor.mp3"
+Oct 28 00:07 : player: played "Section.80/08 Poe Mans Dreams.mp3"
+Oct 28 00:11 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/12 How to Talk.mp3"
+Oct 28 00:14 : player: played "Fetty Wap - Fetty Wap (Deluxe) [Explicit] 2015 {MP3 Album}~{VBUc}/06 I Wonder.mp3"
+Oct 28 00:18 : player: played "The xx - I See You [2017]/02 Say Something Loving.mp3"
+Oct 28 00:19 : player: played "The Marshall Mathers LP/12 Ken Kaniff (Skit).mp3"
+Oct 28 00:22 : player: played "EVOL/07 Seven Rings.mp3"
+Oct 28 00:25 : player: played "Various Artists - Suicide Squad (2016)/04. Mark Ronson - Standing In The Rain.mp3"
+Oct 28 00:28 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/02. Random.mp3"
+Oct 28 00:30 : player: played "Drake - More Life [2017]/21 Ice Melts (feat. Young Thug).mp3"
+Oct 28 01:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 01:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 01:44 : player: played "Drake - More Life [2017]/21 Ice Melts (feat. Young Thug).mp3"

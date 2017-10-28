@@ -1,28 +1,51 @@
-set $mod Mod1
-
 #=======================================================================
 #                             Startup Programs
 #=======================================================================
+
+# Set the screen refresh rate to 144hz
 exec --no-startup-id xrandr -r 144
-exec --no-startup-id compton --config ~/.compton.conf -b
-exec --no-startup-id xsetroot -cursor_name left_ptr
+
+# Launch the top and bottom bars
+exec --no-startup-id pkill polybar
 exec --no-startup-id polybar -r top & polybar -r bottom
+
+# Start compton with all those fancy effects
+exec --no-startup-id pkill compton
+exec --no-startup-id compton --config ~/.compton.conf -b
+
+# Set the cursor
+exec --no-startup-id xsetroot -cursor_name left_ptr
+
+# Need those notifications
+exec --no-startup-id pkill dunst
 exec --no-startup-id dunst -config ~/.config/dunst/config
 
+# Start the Polkit so we can user mount drives
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# Set the wallpaper
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg4.jpg
+
+# Start blurme for dynamic wallpaper bluring
+exec --no-startup-id pkill blurme
+exec --no-startup-id ~/rice/scripts/blurme
+
+# Steam for added flavor
+exec --no-startup-id steam
+
 # Workspaces
-exec --no-startup-id firefox
+exec firefox
 exec --no-startup-id i3-msg 'workspace 2; exec termite -e ranger'
-#exec --no-startup-id i3-msg 'workspace 4; exec termite -e cava'
+exec --no-startup-id i3-msg 'workspace 4; exec termite -e cava'
 exec --no-startup-id i3-msg 'workspace 4; exec termite -e music'
 exec --no-startup-id i3-msg 'workspace 5; exec termite -e rtorrent'
 #exec --no-startup-id i3-msg 'workspace 1; exec termite'
 #exec --no-startup-id i3-msg 'workspace 1; exec termite'
 exec --no-startup-id i3-msg 'workspace 6; exec virt-manager'
-exec --no-startup-id i3-msg 'workspace 1'
+exec i3-msg 'workspace 1'
 
-# Wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg4.jpg
-exec --no-startup-id ~/rice/scripts/blurme &
+
+set $mod Mod1
 
 # lock screen
 bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
@@ -72,11 +95,15 @@ set $workspace2 "2"
 set $workspace3 "3"
 set $workspace4 "4"
 set $workspace5 "5"
-
+set $workspace6 "6"
+set $workspace7 "7"
+set $workspace8 "8"
+set $workspace9 "9"
+set $workspace10 "10"
 # Assign Workspaces:
 
 assign [class="Firefox"] $workspace3
-#assign [class="ranger"] $workspace2
+assign [class="Steam"] $workspace7
 #assign [class="Google-chrome-beta"] $ws3
 #assign [class="^Geany"] $ws1
 
@@ -236,3 +263,15 @@ bindsym --release button2 kill
 
 # Mouse hovering shouldn't dictate mouse focus
 focus_follows_mouse no
+
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
