@@ -6,7 +6,7 @@
 exec --no-startup-id xrandr -r 144
 
 # Launch the top and bottom bars
-exec --no-startup-id polybar -r top & polybar -r bottom
+exec --no-startup-id polybar -r top & polybar -r bottom &
 
 # Start compton with all those fancy effects
 exec --no-startup-id compton --config ~/.compton.conf -b
@@ -15,7 +15,7 @@ exec --no-startup-id compton --config ~/.compton.conf -b
 exec --no-startup-id xsetroot -cursor_name left_ptr
 
 # Need those notifications
-exec --no-startup-id dunst -config ~/.config/dunst/config
+exec --no-startup-id dunst -config ~/.config/dunst/config &
 
 # Start the Polkit so we can user mount drives
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

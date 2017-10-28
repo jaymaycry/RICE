@@ -33,8 +33,8 @@
 *.color14:      #33859d
 
 ! white
-*.color7:       #98d1ce
-*.color15:      #98d1ce
+*.color7:       #dfdfdf
+*.color15:      #dfdfdf
 
 
 

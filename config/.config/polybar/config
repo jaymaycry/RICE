@@ -9,11 +9,11 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #99070e14
-background-alt = #99070e14
+background = #CC070e14
+background-alt = #CC070e14
 ;foreground = ${xrdb:color7:#222}
-foreground = #98d1ce
-foreground-alt = #98d1ce
+foreground = #dfdfdf
+foreground-alt = #dfdfdf
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -31,10 +31,10 @@ offset-y = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 0
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = #00000000
 
 padding-left = 0
@@ -65,17 +65,17 @@ bottom = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 0
 line-color = #f00
 
-border-size = 4
+border-size = 0
 border-color = #00000000
 
 padding-left = 2
 padding-right = 2
 
-module-margin-left = 1
-module-margin-right = 2
+module-margin-left = 0
+module-margin-right = 0
 
 font-0 = Shure\ Tech\ Mono\ Nerd\ Font:pixelsize=14;3
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
@@ -110,7 +110,7 @@ label-unmounted-foreground = ${colors.foreground-alt}
 type = internal/bspwm
 
 label-focused = %index%
-label-focused-background = #002b36
+label-focused-background = #26a98b
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
@@ -143,7 +143,7 @@ label-mode-background = ${colors.primary}
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
 label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = #2aa198
+label-focused-underline = #ffffff
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
 ; unfocused = Inactive workspace on any monitor

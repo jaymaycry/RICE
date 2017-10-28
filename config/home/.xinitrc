@@ -3,4 +3,4 @@
 # command &
 
 exec i3
-
+#exec herbstluftwm
