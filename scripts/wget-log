@@ -71,4 +71,44 @@ Retrying.
 
 --2017-10-28 11:35:49--  (try:11)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
 Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 11:50:59--  (try:12)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:52:32--  (try:13)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:54:05--  (try:14)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:55:35--  (try:15)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection reset by peer) in headers.
+Retrying.
+
+--2017-10-28 11:57:04--  (try:16)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 12:12:14--  (try:17)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 12:27:24--  (try:18)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
+HTTP request sent, awaiting response... Read error (Connection timed out) in headers.
+Retrying.
+
+--2017-10-28 12:42:34--  (try:19)  http://76.92.66.82/MUSIC/ORIG/A/A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville/Bill%20Anderson%20-%20A%20Country%20Christmas%20with%20the%20Stars%20of%20Nashville%20-%2008%20-%20It%20Came%20Upon%20a%20Midnight%20Clear%20(Bill.mp3
+Connecting to 76.92.66.82:80... connected.
 HTTP request sent, awaiting response... 
