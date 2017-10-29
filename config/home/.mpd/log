@@ -30248,3 +30248,7 @@ Oct 28 11:44 : exception: nested: Failed to open /mnt/Media/Music/Jhene Aiko - T
 Oct 28 11:44 : player: played "Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/03 While We're Young.mp3"
 Oct 28 11:44 : exception: Failed to decode /mnt/Media/Music/Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/03 While We're Young.mp3
 Oct 28 11:44 : exception: nested: Failed to open /mnt/Media/Music/Jhene Aiko - Trip (2017) (Mp3 320kbps) [Hunter]/Jhené Aiko - Trip (2017)/03 While We're Young.mp3: No such file or directory
+Oct 28 15:12 : avahi: Client Disconnected, will reconnect shortly
+Oct 28 15:12 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 28 22:03 : exception: inotify_add_watch() has failed: No such file or directory
+Oct 28 22:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

@@ -1,5 +1,5 @@
 ! special
-*.foreground:   #98d1ce
+*.foreground:   #dfdfdf
 *.background:   #070e14
 *.cursorColor:  #26a98b
 
@@ -96,4 +96,3 @@ xterm*color15: #98d1ce
 xterm*rightScrollBar: true
 xterm*ScrollBar: true
 xterm*scrollTtyOutput: false
-
