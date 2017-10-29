@@ -21,11 +21,11 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg6.jpg
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg5.jpg
 
 # Start blurme for dynamic wallpaper bluring
 exec --no-startup-id ~/rice/scripts/blurme &
-
+exec --no-startup-id mpd
 # Steam for added flavor
 
 
@@ -50,7 +50,7 @@ bindsym $mod+Shift+f exec pcmanfm
 # Pavucontrol
 bindsym $mod+Shift+s exec pavucontrol
 for_window [class="Pavucontrol"] floating enable
-bindsym $mod+Shift+b exec chromium
+bindsym $mod+Shift+w exec chromium
 
 #=======================================================================
 #                             Appearance

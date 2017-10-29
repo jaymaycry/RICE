@@ -30259,3 +30259,9 @@ Oct 29 01:47 : exception: OutputThread could not get realtime scheduling, contin
 Oct 29 02:00 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/01 Intro.mp3"
 Oct 29 02:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Oct 29 02:12 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/01 Intro.mp3"
+Oct 29 02:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 02:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 02:30 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/02 Light (feat. Jeremih).mp3"
+Oct 29 02:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 02:31 : player: played "Big Sean – I Decided (2017) Mp3 320Kbps Groo/02 Light (feat. Jeremih).mp3"
+Oct 28 21:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
