@@ -27,18 +27,18 @@ exec --no-startup-id feh --bg-scale ~/rice/bg/bg6.jpg
 exec --no-startup-id ~/rice/scripts/blurme &
 
 # Steam for added flavor
-exec --no-startup-id steam
-exec i3-msg 'workspace 1'
+
+
 # Workspaces
-exec chromium
-exec --no-startup-id i3-msg 'workspace 2; exec pcmanfm'
+#exec --no-startup-id i3-msg 'workspace 2; exec pcmanfm'
 #exec --no-startup-id i3-msg 'workspace 4; exec termite -e cava'
-exec --no-startup-id i3-msg 'workspace 4; exec termite -e music'
-exec --no-startup-id i3-msg 'workspace 5; exec termite -e rtorrent'
+#exec --no-startup-id i3-msg 'workspace 4; exec termite -e music'
+#exec --no-startup-id i3-msg 'workspace 5; exec termite -e rtorrent'
 #exec --no-startup-id i3-msg 'workspace 1; exec termite'
 #exec --no-startup-id i3-msg 'workspace 1; exec termite'
 #exec --no-startup-id i3-msg 'workspace 6; exec virt-manager'
 exec i3-msg 'workspace 1'
+
 set $mod Mod1
 
 # lock screen
@@ -50,6 +50,8 @@ bindsym $mod+Shift+f exec pcmanfm
 # Pavucontrol
 bindsym $mod+Shift+s exec pavucontrol
 for_window [class="Pavucontrol"] floating enable
+bindsym $mod+Shift+b exec chromium
+
 #=======================================================================
 #                             Appearance
 #=======================================================================
@@ -102,8 +104,8 @@ set $workspace9 "9"
 set $workspace10 "10"
 # Assign Workspaces:
 
-assign [class="Chromium"] $workspace3
-assign [class="Steam"] $workspace7
+#assign [class="Chromium"] $workspace3
+#assign [class="Steam"] $workspace7
 #assign [class="Google-chrome-beta"] $ws3
 #assign [class="^Geany"] $ws1
 

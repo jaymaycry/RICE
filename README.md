@@ -1,7 +1,7 @@
 ## [i3-gaps] Sublime RICE Config
 
 
-![alt text](/IMG/workflow.mp4 "Simple.")
+![alt text](/IMG/workflow.gif "Simple.")
 
 ### ---------- Programs In Use ----------
 
