@@ -13,7 +13,7 @@ sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
 echo Installing Base Programs
-sudo pacman -S wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools pulseaudio firefox pulseaudio-alsa libmpdclient zip unzip termite --noconfirm
+sudo pacman -S jsoncpp wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools libmpdclient zip unzip termite --noconfirm
 
 echo Install Virtual Utils
 sudo pacman -S qemu virt-manager virtviewer dnsmasq iptables vde2 bridge-utils openbsd-netcat ebtables iptables --noconfirm
@@ -34,15 +34,15 @@ cd yaourt
 makepkg -si
 
 echo Installing AUR Packages
-yaourt -S trash-cli-git woeusb-git bashmount i3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock slic3r-git --noconfirm
+yaourt -S rxvt-unicode-patched woeusb-giti3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock --noconfirm
 
 echo Updating System
 sudo pacman -Syu --noconfirm
 
 echo Creating Mount Folders Media, Media2, Data
-sudo mkdir /mnt/Media
-sudo mkdir /mnt/Media2
-sudo mkdir /mnt/Data
+sudo mkdir /mnt/media
+sudo mkdir /mnt/media2
+sudo mkdir /mnt/data
 sudo mkdir /mnt/usb
 
 echo Setting Up Git Identity

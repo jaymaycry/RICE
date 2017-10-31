@@ -1,3 +1,7 @@
+!##########################################
+!#                 Colors                 #
+!##########################################
+
 ! special
 *.foreground:   #dfdfdf
 *.background:   #070e14
@@ -36,8 +40,9 @@
 *.color7:       #dfdfdf
 *.color15:      #dfdfdf
 
-
-
+!##########################################
+!#                   Rofi                 #
+!##########################################
 
 rofi.location:          0
 rofi.color-enabled:     true
@@ -61,38 +66,88 @@ rofi.width:             300
 rofi.opacity:           90
 rofi.font:              Shure\ Tech\ Mono\ Nerd\ Font 14
 
-Xft.autohint: 1
-Xft.lcdfilter: lcddefault
-Xft.hintstyle: hintslight
-Xft.hinting: 1
-Xft.antialias: 1
-Xft.rgba: rgb
+!##########################################
+!#                 URxvt                  #
+!##########################################
 
-xterm*faceName: Roboto Mono
-xterm*faceSize: 14
-xterm*loginshell: true
-xterm*savelines: 16384
-xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+! General settings
+URxvt.saveLines: 2000
+URxvt.scrollBar: False
+URxvt.scrollstyle: rxvt
+URxvt.termName: xterm-256color
+URxvt.urgentOnBell: True
+URxvt.cursorBlink: False
 
-xterm*foreground: #26a98b
-xterm*background: #070e14
-xterm*color0:  #0a0f14
-xterm*color1:  #c33027
-xterm*color2:  #26a98b
-xterm*color3:  #edb54b
-xterm*color4:  #195465
-xterm*color5:  #787c9b
-xterm*color6:  #33859d
-xterm*color7:  #98d1ce
-xterm*color8:  #25374a
-xterm*color9:  #c33027
-xterm*color10: #26a98b
-xterm*color11: #edb54b
-xterm*color12: #195465
-xterm*color13: #787c9b
-xterm*color14: #33859d
-xterm*color15: #98d1ce
+! Extensions
+URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
+URxvt.urlLauncher: xdg-open
+URxvt.urlButton: 1
+URxvt.underlineURLs: True
 
-xterm*rightScrollBar: true
-xterm*ScrollBar: true
-xterm*scrollTtyOutput: false
+URxvt.copyCommand:  xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+
+! Keybindings
+URxvt.keysym.Mod4-c: perl:clipboard:copy
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-u: perl:url-select:select_next
+
+!URxvt.font: xft:Roboto Mono Nerd Font:style=Regular:size=14
+!URxvt.boldFont: xft:Roboto Mono Nerd Font:style=Regular:size=14
+URxvt*font:			xft:Roboto Mono Nerd Font:size=13
+URxvt*lineSpace:	0
+URxvt*.letterSpace: -2
+!##########################################
+!#                 Xterm                  #
+!##########################################
+
+! General settings
+XTerm*termName: xterm-256color
+XTerm*geometry: 80x24
+XTerm*saveLines: 1024
+XTerm*scrollBar: False
+XTerm*loginshell: False
+XTerm*cursorBlink: True
+
+! Fonts and Encoding
+XTerm*utf8: True
+XTerm*locale: True
+XTerm*utf8Title: True
+XTerm*renderFont: True
+XTerm*preeditType: Root
+XTerm*xftAntialias: true
+!XTerm*faceName: xft:Terminus For Powerline-14
+XTerm*faceName: Shure Tech Mono Nerd Font
+XTerm*faceSize:14
+! Trim trailing spaces
+XTerm*trimSelection: true
+
+! Fix alt-key inputting
+XTerm*eightBitInput: false
+XTerm*metaSendsEscape: true
+
+! Copy and paste with clipboard
+XTerm*translations: #override \
+	Ctrl Shift <KeyPress> C: copy-selection(CLIPBOARD) \n\
+	Ctrl Shift <KeyPress> V: insert-selection(CLIPBOARD)
+
+! Allow selecting email/url by double-click
+XTerm*charClass: 33:48,37-38:48,45-47:48,64:48,58:48,126:48,61:48,63:48,43:48,35:48
+
+!----------------
+!  Xft Settings
+!----------------
+
+Xft*dpi: 82
+Xft*antialias:  true
+Xft*hinting:    true
+Xft*rgba:       rgb
+Xft*autohint:   false
+Xft*hintstyle:  hintfull
+Xft*lcdfilter:  lcddefault
