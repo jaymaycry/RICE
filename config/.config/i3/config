@@ -26,17 +26,9 @@ exec --no-startup-id feh --bg-scale ~/rice/bg/bg6.jpg
 # Start blurme for dynamic wallpaper bluring
 exec --no-startup-id ~/rice/scripts/blurme &
 exec --no-startup-id mpd
-# Steam for added flavor
 
+exec --no-startup-id syncthing
 
-# Workspaces
-#exec --no-startup-id i3-msg 'workspace 2; exec pcmanfm'
-#exec --no-startup-id i3-msg 'workspace 4; exec termite -e cava'
-#exec --no-startup-id i3-msg 'workspace 4; exec termite -e music'
-#exec --no-startup-id i3-msg 'workspace 5; exec termite -e rtorrent'
-#exec --no-startup-id i3-msg 'workspace 1; exec termite'
-#exec --no-startup-id i3-msg 'workspace 1; exec termite'
-#exec --no-startup-id i3-msg 'workspace 6; exec virt-manager'
 exec i3-msg 'workspace 1'
 
 set $mod Mod1

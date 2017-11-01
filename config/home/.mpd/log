@@ -31798,3 +31798,5 @@ Oct 31 03:48 : player: played "DJ Khaled - Grateful (2017) Mp3.320kbps [WR Music
 Oct 31 03:52 : player: played "Lil Yachty - Teenage Emotions 2017.Mp3.320kbps.[Hunter]/Lil Yachty - Teenage Emotions (2017)/03 - Peek A Boo.mp3"
 Oct 31 03:57 : player: played "Radiohead A Moon Shaped Pool [2016] 320/LEAK/10-tinker_tailor_soldier_sailor_rich_man_poor_man_beggar_man_thief.mp3"
 Oct 31 04:01 : player: played "Kanye West – The Life Of Pablo (T.L.O.P.) 2016/13. Kanye West - Wolves.mp3"
+Oct 31 05:21 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Oct 31 12:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

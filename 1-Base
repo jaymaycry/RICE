@@ -1,7 +1,21 @@
 #!/bin/bash
 
+########################################################
+#                       Locale                         #
+########################################################
+
 echo Setting Locale
 sudo localedef -f UTF-8 -i en_US en_US.UTF-8
+
+########################################################
+#                     Update System                    #
+########################################################
+
+sudo pacman -Syu --noconfirm
+
+########################################################
+#                         Network                      #
+########################################################
 
 echo Setting Up Network
 sudo systemctl enable dhcpcd@enp0s31f6.service
@@ -12,17 +26,45 @@ sudo pacman -S ifplugd --noconfirm
 sudo systemctl enable netctl-ifplugd@enp0s31f6.service
 sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
+########################################################
+#                         Time                         #
+########################################################
+
+sudo pacman -S ntp --noconfirm
+sudo systemctl enable ntpd.service
+sudo systemctl enable ntpdate.service
+
+########################################################
+#                   Base Packages                      #
+########################################################
+
 echo Installing Base Programs
-sudo pacman -S jsoncpp wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio htop cmatrix openssh xorg-xsetroot os-prober alsa-utils xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools libmpdclient zip unzip termite --noconfirm
+sudo pacman -S jsoncpp wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio alsa-utils htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools libmpdclient zip unzip termite --noconfirm
+
+
+
 
 echo Install Virtual Utils
 sudo pacman -S qemu virt-manager virtviewer dnsmasq iptables vde2 bridge-utils openbsd-netcat ebtables iptables --noconfirm
 
+
+########################################################
+#                       Codecs                         #
+########################################################
+
 echo Installing Codecs
 sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad libmpeg2 libtheora libvorbis libxv wavpack x264 xvidcore gstreamer gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-libav --noconfirm
 
+########################################################
+#                   Video Drivers                      #
+########################################################
+
 echo Installing Video Drivers
 sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl --noconfirm
+
+########################################################
+#                       Yaourt                         #
+########################################################
 
 echo Installing Yaourt
 git clone https://aur.archlinux.org/package-query.git
@@ -33,11 +75,22 @@ git clone https://aur.archlinux.org/yaourt.git
 cd yaourt
 makepkg -si
 
+########################################################
+#                    AUR Packages                      #
+########################################################
+
 echo Installing AUR Packages
 yaourt -S rxvt-unicode-patched woeusb-giti3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock --noconfirm
 
-echo Updating System
-sudo pacman -Syu --noconfirm
+########################################################
+#                       Updates                        #
+########################################################
+
+sudo pacman -Syu
+
+########################################################
+#                    Mount Points                      #
+########################################################
 
 echo Creating Mount Folders Media, Media2, Data
 sudo mkdir /mnt/media
@@ -45,9 +98,17 @@ sudo mkdir /mnt/media2
 sudo mkdir /mnt/data
 sudo mkdir /mnt/usb
 
+########################################################
+#                    Git Identity                      #
+########################################################
+
 echo Setting Up Git Identity
 git config --global user.name "Kory Freese"
 git config --global user.email koryfreese@gmail.com
+
+########################################################
+#                Disable Screen Timeout                #
+########################################################
 
 echo Disable Screen Timeout
 xset -dpms
