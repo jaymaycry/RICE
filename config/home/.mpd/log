@@ -31800,3 +31800,6 @@ Oct 31 03:57 : player: played "Radiohead A Moon Shaped Pool [2016] 320/LEAK/10-t
 Oct 31 04:01 : player: played "Kanye West – The Life Of Pablo (T.L.O.P.) 2016/13. Kanye West - Wolves.mp3"
 Oct 31 05:21 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
 Oct 31 12:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 21:04 : inotify: music directory was removed - cannot continue to watch it
+Oct 31 21:07 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Nov 01 00:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

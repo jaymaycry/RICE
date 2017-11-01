@@ -1,7 +1,8 @@
 #!/bin/bash
 
+mkdir ~/.local
 mkdir ~/.local/share
-cp -rf ~/rice/config/home/.* ~/
-cp -rf ~/rice/config/.config/ ~/
+cp -r ~/rice/config/home/* ~/
+cp -r ~/rice/config/.config/ ~/
 
 echo Restore Complete
