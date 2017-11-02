@@ -9,7 +9,7 @@
 
 ! black
 !*.color0:       #070e14
-*.color0:       #000000
+*.color0:       #070e14
 *.color8:       #25374a
 
 ! red
@@ -59,7 +59,7 @@ rofi.padding:           20
 rofi.lines:             5
 rofi.hide-scrollbar:    true
 rofi.line-margin:       5
-rofi.fake-transparency: true
+rofi.fake-transparency: false
 rofi.yoffset:           0
 rofi.xoffset:           0
 rofi.width:             300
@@ -100,9 +100,9 @@ URxvt.keysym.M-u: perl:url-select:select_next
 
 !URxvt.font: xft:Roboto Mono Nerd Font:style=Regular:size=14
 !URxvt.boldFont: xft:Roboto Mono Nerd Font:style=Regular:size=14
-URxvt*font:			xft:Roboto Mono Nerd Font:size=13
-URxvt*lineSpace:	0
-URxvt*.letterSpace: -2
+URxvt*font: xft:Roboto Mono Nerd Font:size=14
+URxvt*lineSpace: 0
+URxvt*.letterSpace: 0
 !##########################################
 !#                 Xterm                  #
 !##########################################

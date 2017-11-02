@@ -21,7 +21,7 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg6.jpg
+exec --no-startup-id feh --bg-scale ~/rice/bg/15.png
 
 # Start blurme for dynamic wallpaper bluring
 exec --no-startup-id ~/rice/scripts/blurme &
@@ -42,7 +42,7 @@ bindsym $mod+Shift+f exec pcmanfm
 # Pavucontrol
 bindsym $mod+Shift+s exec pavucontrol
 for_window [class="Pavucontrol"] floating enable
-bindsym $mod+Shift+w exec chromium
+bindsym $mod+Shift+w exec firefox-nightly
 
 #=======================================================================
 #                             Appearance
@@ -51,10 +51,10 @@ bindsym $mod+Shift+w exec chromium
 # Window Gaps
 gaps inner 25
 gaps outer 0
-#smart_gaps off
+#smart_gaps on
 
 # class                 border  	backgr.       text_indicator 	child_border
-client.focused          #d26939 #d26939 #d26939 #d26939 #d26939
+client.focused          #26a98b #26a98b #26a98b #26a98b #26a98b
 client.focused_inactive #0a0f14 #0a0f14 #0a0f14 #0a0f14 #0a0f14
 client.unfocused        #0a0f14 #0a0f14 #0a0f14 #0a0f14 #0a0f14
 
@@ -70,7 +70,7 @@ font pango:Roboto 11
 #=======================================================================
 
 # start a terminal
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill

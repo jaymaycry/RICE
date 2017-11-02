@@ -31803,3 +31803,16 @@ Oct 31 12:35 : exception: OutputThread could not get realtime scheduling, contin
 Oct 31 21:04 : inotify: music directory was removed - cannot continue to watch it
 Oct 31 21:07 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
 Nov 01 00:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 01:05 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Nov 01 09:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 09:58 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Nov 01 10:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 12:09 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Nov 01 15:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 17:58 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Nov 01 20:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 21:46 : avahi: Client Disconnected, will reconnect shortly
+Nov 01 21:46 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 01 21:46 : player: played "The Marshall Mathers LP/17 Under The Influence.mp3"
+Nov 01 22:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 01 23:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # .config
+cp -r ~/.config/mpv ~/rice/config/.config/
 cp -r ~/.config/cava ~/rice/config/.config/
 cp -r ~/.config/htop ~/rice/config/.config/
 cp -r ~/.config/i3 ~/rice/config/.config/

@@ -39,7 +39,7 @@ sudo systemctl enable ntpdate.service
 ########################################################
 
 echo Installing Base Programs
-sudo pacman -S jsoncpp wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 mplayer unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio alsa-utils htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools libmpdclient zip unzip termite --noconfirm
+sudo pacman -S mpv neovim java-openjfx jsoncpp wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio alsa-utils htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools libmpdclient zip unzip termite --noconfirm
 
 
 
@@ -80,7 +80,7 @@ makepkg -si
 ########################################################
 
 echo Installing AUR Packages
-yaourt -S rxvt-unicode-patched woeusb-giti3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock --noconfirm
+yaourt -S rxvt-unicode-patched firefox-nightly woeusb-giti3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock filebot --noconfirm
 
 ########################################################
 #                       Updates                        #
@@ -113,3 +113,7 @@ git config --global user.email koryfreese@gmail.com
 echo Disable Screen Timeout
 xset -dpms
 xset s off
+
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+
