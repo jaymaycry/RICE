@@ -8,7 +8,7 @@ export ZSH=/home/sublime/.oh-my-zsh
 
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="kardan"
-ZSH_THEME="random"
+ZSH_THEME="sublime"
 ENABLE_CORRECTION="false"
 
 COMPLETION_WAITING_DOTS="true"

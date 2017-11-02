@@ -2,7 +2,7 @@
 
 mkdir ~/.local
 mkdir ~/.local/share
-cp -r ~/rice/config/home/* ~/
+cp -r ~/rice/config/home/.* ~/
 cp -r ~/rice/config/.config/ ~/
 
 echo Restore Complete

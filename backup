@@ -11,7 +11,7 @@ cp -r ~/.config/polybar ~/rice/config/.config/
 cp -r ~/.config/ranger ~/rice/config/.config/
 cp -r ~/.config/termite ~/rice/config/.config/
 cp -r ~/.config/torrench ~/rice/config/.config/
-
+cp ~/.oh-my-zsh/themes/sublime.zsh-theme ~/rice/config/home/.oh-my-zsh/themes/
 # ~/
 cp -r ~/.mpd ~/rice/config/home/
 cp -r ~/.mplayer ~/rice/config/home/
