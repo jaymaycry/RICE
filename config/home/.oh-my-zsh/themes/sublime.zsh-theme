@@ -10,7 +10,7 @@ RPROMPT='$(_vi_status)%{$(echotc UP 1)%}$(_git_time_since_commit) $(git_prompt_s
 
 local _current_dir="%{$fg_bold[green]%}%3~%{$reset_color%} "
 local _return_status="%{$fg_bold[red]%}%(?..⍉)%{$reset_color%}"
-local _hist_no="%{$fg[white]%}%h%{$reset_color%}"
+local _hist_no="%{$fg[grey]%}%h%{$reset_color%}"
 
 function _current_dir() {
   local _max_pwd_length="65"

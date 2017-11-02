@@ -4,12 +4,15 @@
 
 # Set the screen refresh rate to 144hz
 exec --no-startup-id xrandr -r 144
-
+exec --no-startup-id xrdb ~/.Xresources
 # Launch the top and bottom bars
 exec --no-startup-id polybar -r top & polybar -r bottom &
 
 # Start compton with all those fancy effects
 exec --no-startup-id compton --config ~/.compton.conf -b
+
+# Launch Unclutter to hide the mouse
+exec --no-startup-id unclutter &
 
 # Set the cursor
 exec --no-startup-id xsetroot -cursor_name left_ptr
@@ -21,7 +24,7 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/15.png
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg4.jpg
 
 # Start blurme for dynamic wallpaper bluring
 exec --no-startup-id ~/rice/scripts/blurme &
@@ -39,6 +42,9 @@ bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
 # Run PCmanfm
 bindsym $mod+Shift+f exec pcmanfm
 
+# run Ranger
+bindsym $mod+Shift+r exec urxvt -e ranger /mnt
+
 # Pavucontrol
 bindsym $mod+Shift+s exec pavucontrol
 for_window [class="Pavucontrol"] floating enable
@@ -49,8 +55,8 @@ bindsym $mod+Shift+w exec firefox-nightly
 #=======================================================================
 
 # Window Gaps
-gaps inner 25
-gaps outer 0
+gaps inner 20
+gaps outer 10
 #smart_gaps on
 
 # class                 border  	backgr.       text_indicator 	child_border
@@ -71,12 +77,15 @@ font pango:Roboto 11
 
 # start a terminal
 bindsym $mod+Return exec urxvt
+bindsym $mod+Shift+Return exec --no-startup-id urxvt --title FloatTerm
+for_window [title="FloatTerm"] floating enable, move absolute position center, resize grow left 150, resize grow right 150, resize
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start Rofi
 bindsym $mod+d exec rofi -show run
+bindsym $mod+grave exec --no-startup-id rofi -show find
 
 #=======================================================================
 #                             Workspaces
@@ -109,6 +118,10 @@ floating_modifier $mod
 #=======================================================================
 #                             Navigation
 #=======================================================================
+
+# tab containers in place
+bindsym $mod+Shift+t split h; layout tabbed
+
 
 # Change focus
 bindsym $mod+Left focus left
@@ -170,9 +183,9 @@ bindsym $mod+Shift+0 move container to workspace 10
 #=======================================================================
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+#bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+#bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
