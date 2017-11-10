@@ -1,10 +1,10 @@
 #=======================================================================
 #                             Startup Programs
 #=======================================================================
-
 # Set the screen refresh rate to 144hz
 exec --no-startup-id xrandr -r 144
 exec --no-startup-id xrdb ~/.Xresources
+
 # Launch the top and bottom bars
 exec --no-startup-id polybar -r top & polybar -r bottom &
 
@@ -24,14 +24,19 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg4.jpg
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg20.jpg
 
 # Start blurme for dynamic wallpaper bluring
-exec --no-startup-id ~/rice/scripts/blurme &
-exec --no-startup-id mpd
+exec --no-startup-id ~/rice/scripts/blurme
+#exec --no-startup-id mpd
 
 exec --no-startup-id syncthing
 
+# Disable Screen Timeout
+exec --no-startup-id xset s off
+exec --no-startup-id xset -dpms
+exec --no-startup-id xset s noblank
+exec -3-msg 'workspace 2'
 exec i3-msg 'workspace 1'
 
 set $mod Mod1

@@ -35,11 +35,50 @@ sudo systemctl enable ntpd.service
 sudo systemctl enable ntpdate.service
 
 ########################################################
-#                   Base Packages                      #
+#                                         #
 ########################################################
 
 echo Installing Base Programs
-sudo pacman -S mpv neovim java-openjfx jsoncpp wine wine_gecko wine-mono pv mpc dunst mousepad ranger udisks2 unclutter wmctrl unrar p7zip perl-anyevent-i3 fortune-mod rsync ntfs-3g rtorrent syncthing lxappearance ttf-roboto w3m pavucontrol pulseaudio alsa-utils htop cmatrix openssh xorg-xsetroot os-prober xorg-xrandr feh xorg-xinit xarchiver pcmanfm libreoffice-fresh gparted net-tools git compton xorg ttf-symbola ttf-font-awesome rofi wireless_tools libmpdclient zip unzip termite --noconfirm
+sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod rtorrent syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi  libmpdclient --noconfirm
+
+rhash cmake lib32-dbus
+
+
+Sudo pacman -S intel-ucode unclutter wmctrl ntfs-3g xorg-xsetroot os-prober xorg-xrandr xorg-xinit gparted wireless_tools pv compton xorg
+
+dunst
+mousepad
+
+
+Sudo pacman -S mpv mpc 
+
+
+Sudo pacman -S wine wine_gecko wine-mono
+
+
+Sudo pacman -S unrar p7zip rsync xarchiver pcmanfm ranger unzip zip
+
+
+Sudo pacman -S lxappearance ttf-roboto ttf-symbola ttf-font-awesome 
+
+
+Sudo pacman -S pavucontrol pulseaudio alsa-utils 
+
+
+Sudo pacman -S fortune-mod 
+
+
+sudo pacman -S neovim 
+
+
+sudo pacman -S java-openjfx 
+
+
+
+
+########################################################
+#                        Fonts                         #
+########################################################
 
 
 
@@ -116,4 +155,8 @@ xset s off
 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+# Mouse
 
+sudo pacman -S python-pyside --noconfirm
+yaourt -S razercfg-git --noconfirm
+sudo systemctl enable razerd.service

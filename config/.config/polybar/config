@@ -35,7 +35,7 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 
-border-size = 10
+border-size = 0
 border-color = #00000000
 
 padding-left = 0
@@ -70,7 +70,7 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 
-border-size = 10
+border-size = 0
 border-color = #00000000
 
 padding-left = 2
@@ -98,9 +98,9 @@ label = %title:0:30:...%
 type = internal/fs
 interval = 25
 mount-0 = /
-mount-1 = /mnt/Data
-mount-2 = /mnt/Media
-mount-3 = /mnt/Media2
+mount-1 = /mnt/data
+mount-2 = /mnt/media
+mount-3 = /mnt/media2
 
 spacing = 2
 format-mounted = <label-mounted>

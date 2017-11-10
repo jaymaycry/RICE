@@ -2,4 +2,5 @@ shell sudo chown -R sublime:users Media2
 find 
 delete
 open_with xarchiver
+shell 
 open_with 

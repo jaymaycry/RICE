@@ -13,7 +13,7 @@ framerate = 60
 # new as of 0.6.0 autosens of low values (dynamic range)
 # 'overshoot' allows bars to overshoot (in % of terminal height) without initiating autosens. DEPRECATED as of 0.6.0
 autosens = 1
-; overshoot = 20
+overshoot = 20
 
 # Manual sensitivity in %. Autosens must be turned off for this to take effect.
 # 200 means double height. Accepts only non-negative values.
@@ -21,8 +21,8 @@ autosens = 1
 
 # The number of bars (0-200). 0 sets it to auto (fill up console).
 # Bars' width and space between bars in number of characters.
-bars = 0
-bar_width = 2
+bars = 200
+bar_width = 1
 bar_spacing = 1
 
 
@@ -49,7 +49,7 @@ bar_spacing = 1
 # For alsa 'source' will be the capture device.
 # For fifo 'source' will be the path to fifo-file.
 method = pulse
-;source = hw:1,1
+;source = hw:0,1
 
 ;method = alsa
 ;source = hw:1,1
@@ -76,7 +76,7 @@ channels = stereo
 ; raw_target = /dev/stdout
 
 # Raw data format. Can be 'binary' or 'ascii'.
-data_format = ascii
+data_format = binary
 
 # Binary bit format, can be '8bit' (0-255) or '16bit' (0-65530).
 bit_format = 16bit
@@ -120,7 +120,7 @@ integral = 70
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.
 # Accepts only non-negative values. 50 means half gravity, 200 means double. Set to 0 to disable "drop off".
-; gravity = 100
+gravity = 100
 
 
 # In bar height, bars that would have been lower that this will not be drawn.
