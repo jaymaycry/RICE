@@ -4,6 +4,6 @@ sudo pacman -Rscn $(pacman -Qtdq)
 sudo pacman -Sc
 sudo pacman-optimize && sync
 sudo pacman -Syu
-sudo yaourt -Syu
+sudo yaourt -Syu --aur
 
 exit 0

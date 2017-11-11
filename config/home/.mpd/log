@@ -45029,3 +45029,16 @@ Nov 05 13:18 : player: played "Kanye West - Yeezus - 320kbps/07 Blood On The Lea
 Nov 05 13:34 : avahi: Client Disconnected, will reconnect shortly
 Nov 05 13:34 : avahi: Could not reconnect: An unexpected D-Bus error occurred
 Nov 05 13:34 : player: played "Kodak Black - Projects Baby 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Kodak Black - Projects Baby 2 (2017)/09 My Klik (feat. JackBoy & John Wicks).mp3"
+Nov 09 22:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 22:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 09 22:35 : player: played "J Cole - 4 Your Eyez Only (2016) Full Album Mp3 320Kbps Groo/07 Neighbors.mp3"
+Nov 09 22:37 : player: played "XXXTENTACION - 17 (Upload Martinx)/06. Save Me.mp3"
+Nov 09 22:41 : player: played "Kodak Black - Projects Baby 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Kodak Black - Projects Baby 2 (2017)/09 My Klik (feat. JackBoy & John Wicks).mp3"
+Nov 10 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 01:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 01:12 : player: played "Childish_Gambino-Because_The_Internet-(RGF.iS)/08 - Sweatpants.mp3"
+Nov 10 01:14 : player: played "Bryson Tiller - True to Self (2017)/02. No Longer Friends.mp3"
+Nov 10 01:32 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Nov 10 01:35 : avahi: Client Disconnected, will reconnect shortly
+Nov 10 01:35 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 10 01:35 : player: played "Chance_the_Rapper-Coloring_Book/Chance the Rapper - Coloring Book/10 - All Night (feat. Knox Fortune).mp3"

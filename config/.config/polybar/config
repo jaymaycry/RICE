@@ -21,7 +21,7 @@ alert = #bd2c40
 [bar/top]
 monitor = DisplayPort-0
 width = 100%
-height = 28
+height = 30
 radius = 0
 fixed-center = true 
 override-redirect = false
@@ -35,7 +35,7 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 
-border-size = 10
+border-size = 5
 border-color = #00000000
 
 padding-left = 0
@@ -50,15 +50,15 @@ font-2 = siji:pixelsize=10;0
 
 modules-left = i3
 modules-center = date
-modules-right = cpu separator memory separator eth separator volume separator powermenu 
+modules-right = redshift separator pkg separator pavolume separator powermenu 
 
-tray-position = right
+;tray-position = right
 tray-padding = 2
 
 [bar/bottom]
 monitor = DisplayPort-0
 width = 100%
-height = 28
+height = 30
 radius = 0
 fixed-center = true 
 
@@ -70,7 +70,7 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 
-border-size = 10
+border-size = 5
 border-color = #00000000
 
 padding-left = 2
@@ -83,12 +83,12 @@ font-0 = Shure\ Tech\ Mono\ Nerd\ Font:pixelsize=14;3
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;0
 
-modules-left = mpd
-modules-center = filesystem
-modules-right =  bitcoin
+modules-left = bitcoin separator memory separator cpu
+modules-center = mpd 
+modules-right = 
 
 tray-position = right
-tray-padding = 10
+tray-padding = 5
 
 [module/xwindow]
 type = internal/xwindow
@@ -112,7 +112,7 @@ label-unmounted-foreground = ${colors.foreground-alt}
 type = internal/bspwm
 
 label-focused = %index%
-label-focused-background = #26a98b
+label-focused-background = #26A98B
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
@@ -190,7 +190,7 @@ interval = 2
 
 [module/cpu]
 type = internal/cpu
-interval = 0.5
+interval = 00.1
 format-prefix = "  "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = 
@@ -198,7 +198,7 @@ label = %percentage%%
 
 [module/memory]
 type = internal/memory
-interval = 0.5
+interval = 00.1
 format-prefix = "  " 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = 
@@ -319,3 +319,35 @@ exec = ~/rice/scripts/bitcoin
 type = custom/text
 content = |
 content-foreground = ${colors.foreground}
+
+[module/pkg]
+type = custom/script
+interval = 300
+format = <label>
+format-underline = #dc322f
+label = "%output:0:30%"
+exec = ~/.config/polybar/pkg.sh
+
+[module/reddit]
+type = custom/script
+interval = 10
+format = <label>
+exec = ~/.config/polybar/reddit.sh
+click-left = xdg-open https://reddit.com/message/unread & disown
+
+[module/redshift]
+type = custom/script
+interval = 5
+
+exec = ~/.config/polybar/redshift.sh
+
+[module/pavolume]
+type = custom/script
+tail = true
+label = %output%
+exec = ~/.config/polybar/pavolume.sh --listen
+click-right = exec pavucontrol
+click-left = ~/.config/polybar/pavolume.sh --togmute
+scroll-up = ~/.config/polybar/pavolume.sh --up
+scroll-down = ~/.config/polybar/pavolume.sh --down
+
