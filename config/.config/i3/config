@@ -89,7 +89,7 @@ bindsym $mod+grave exec --no-startup-id rofi -show find
 #=======================================================================
 
 # Window Gaps
-gaps inner 20
+gaps inner 30
 gaps outer 0
 #smart_gaps on
 
