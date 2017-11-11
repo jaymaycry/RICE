@@ -41,7 +41,7 @@ sudo systemctl enable ntpdate.service
 echo Installing Base Programs
 sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod rtorrent syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi  libmpdclient --noconfirm
 
-rhash cmake lib32-dbus
+i3lock scrot rhash cmake lib32-dbus
 
 
 Sudo pacman -S intel-ucode unclutter wmctrl ntfs-3g xorg-xsetroot os-prober xorg-xrandr xorg-xinit gparted wireless_tools pv compton xorg

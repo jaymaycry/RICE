@@ -45042,3 +45042,6 @@ Nov 10 01:32 : exception: Failed to pause "pulse audio" (pulse): failed to conne
 Nov 10 01:35 : avahi: Client Disconnected, will reconnect shortly
 Nov 10 01:35 : avahi: Could not reconnect: An unexpected D-Bus error occurred
 Nov 10 01:35 : player: played "Chance_the_Rapper-Coloring_Book/Chance the Rapper - Coloring Book/10 - All Night (feat. Knox Fortune).mp3"
+Nov 10 22:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 22:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 10 22:31 : player: played "SremmLife/05 This Could Be Us.mp3"

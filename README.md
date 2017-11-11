@@ -1,7 +1,7 @@
 ## [i3-gaps] Sublime RICE Config
 
 
-![alt text](/IMG/workflow.gif "Simple.")
+![alt text](/img/scrot.png "Simple.")
 
 ### ---------- Programs In Use ----------
 

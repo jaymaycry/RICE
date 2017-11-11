@@ -1,19 +1,25 @@
 #=======================================================================
 #                             Startup Programs
 #=======================================================================
+
+set $mod Mod1
+
 # Set the screen refresh rate to 144hz
 exec --no-startup-id xrandr -r 144
+
+# Set dual monitor config
+#exec /home/rice/scripts/dual
+
+# Merge xrdb
 exec --no-startup-id xrdb ~/.Xresources
 
 # Launch the top and bottom bars
 exec --no-startup-id polybar -r top & polybar -r bottom &
 
-exec --no-startup-id deluge &
-
 # Start compton with all those fancy effects
 exec --no-startup-id compton --config ~/.compton.conf -b
 
-# Launch Unclutter to hide the mouse
+# Launch Unclutter to hide the mouse when not in use
 exec --no-startup-id unclutter &
 
 # Set the cursor
@@ -26,36 +32,57 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg20.jpg
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg25.jpg
 
 # Start blurme for dynamic wallpaper bluring
-exec --no-startup-id ~/rice/scripts/blurme
-#exec --no-startup-id mpd
-
-exec --no-startup-id syncthing
+#exec --no-startup-id ~/rice/scripts/blurme
 
 # Disable Screen Timeout
 exec --no-startup-id xset s off
 exec --no-startup-id xset -dpms
 exec --no-startup-id xset s noblank
-exec -3-msg 'workspace 2'
-exec i3-msg 'workspace 1'
 
-set $mod Mod1
+# Start our torrent client
+exec --no-startup-id deluge
+
+# Start out sync client
+exec --no-startup-id syncthing
+
+# Move to workspace 1
+exec i3-msg workspace1
+
+#=======================================================================
+#                         User Key Bindings
+#=======================================================================
 
 # lock screen
 bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
 
-# Run PCmanfm
+# PCmanfm
 bindsym $mod+Shift+f exec pcmanfm
 
-# run Ranger
+# Ranger
 bindsym $mod+Shift+r exec urxvt -e ranger /mnt
 
 # Pavucontrol
 bindsym $mod+Shift+s exec pavucontrol
-for_window [class="Pavucontrol"] floating enable
+
+# Web Browser
 bindsym $mod+Shift+w exec firefox-nightly
+
+# Terminal
+bindsym $mod+Return exec urxvt
+
+# Floating Terminal
+bindsym $mod+Shift+Return exec --no-startup-id urxvt --title FloatTerm
+for_window [title="FloatTerm"] floating enable, move absolute position center, resize grow left 150, resize grow right 150, resize
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+# start Rofi
+bindsym $mod+d exec rofi -show run
+bindsym $mod+grave exec --no-startup-id rofi -show find
 
 #=======================================================================
 #                             Appearance
@@ -78,28 +105,14 @@ new_float pixel 0
 # Font for window titles
 font pango:Roboto 11
 
-#=======================================================================
-#                             Key Shortcuts
-#=======================================================================
 
-# start a terminal
-bindsym $mod+Return exec urxvt
-bindsym $mod+Shift+Return exec --no-startup-id urxvt --title FloatTerm
-for_window [title="FloatTerm"] floating enable, move absolute position center, resize grow left 150, resize grow right 150, resize
-
-# kill focused window
-bindsym $mod+Shift+q kill
-
-# start Rofi
-bindsym $mod+d exec rofi -show run
-bindsym $mod+grave exec --no-startup-id rofi -show find
+for_window [class="Pavucontrol"] floating enable
 
 #=======================================================================
 #                             Workspaces
 #=======================================================================
 
 # Workspace names
-
 set $workspace1 "1"
 set $workspace2 "2"
 set $workspace3 "3"
@@ -110,17 +123,17 @@ set $workspace7 "7"
 set $workspace8 "8"
 set $workspace9 "9"
 set $workspace10 "10"
-# Assign Workspaces:
 
-#assign [class="Chromium"] $workspace3
+# Assign Workspaces:
+workspace 1 output DisplayPort-0
+workspace 10 output HDMI-0
+
+assign [class="mpv"] $workspace10
 #assign [class="Steam"] $workspace7
 #assign [class="Google-chrome-beta"] $ws3
 #assign [class="^Geany"] $ws1
 
 workspace_auto_back_and_forth yes
-
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
 
 #=======================================================================
 #                             Navigation
@@ -266,26 +279,6 @@ mode "$mode_gaps_outer" {
 #                             Mouse integration
 #=======================================================================
 
-# Hide the mouse when it's not moving
-exec --no-startup-id unclutter
-
-# Mod + rmb over titlebar toggles floating mode
-bindsym $mod+button3 floating toggle
-
-# The middle button over a titlebar kills the window
-bindsym --release button2 kill
-
 # Mouse hovering shouldn't dictate mouse focus
 focus_follows_mouse no
 
-# https://github.com/ValveSoftware/steam-for-linux/issues/1040
-for_window [class="^Steam$" title="^Friends$"] floating enable
-for_window [class="^Steam$" title="Steam - News"] floating enable
-for_window [class="^Steam$" title=".* - Chat"] floating enable
-for_window [class="^Steam$" title="^Settings$"] floating enable
-for_window [class="^Steam$" title=".* - event started"] floating enable
-for_window [class="^Steam$" title=".* CD key"] floating enable
-for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
-for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
-for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
-for_window [title="^Steam Keyboard$"] floating enable
