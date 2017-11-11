@@ -5,9 +5,9 @@
 
 ### ---------- Programs In Use ----------
 
-#### - Terminal: Termite
-#### - Notepad: Vim
-#### - Media Player: VLC
+#### - Terminal: URXVT
+#### - Notepad: NVim
+#### - Media Player: MPV
 #### - Web Browser: Firefox Nightly
 #### - File Manager: Ranger
 #### - Launcher: Rofi
