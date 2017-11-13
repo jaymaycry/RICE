@@ -25,15 +25,21 @@ color-echo 'kernel' "$(uname -smr)"
 color-echo 'Shell ' 'ZSH'
 
 # wm
-color-echo 'WM    ' 'I3 Gaps'
+color-echo 'WM    ' 'i3-Gaps'
+
+# CPU
+color-echo 'CPU   ' 'I5 6600k'
+
+# GPU
+color-echo 'GPU   ' 'R9 390'
 
 # distro
-color-echo 'Distro' 'Arch v9k'
+color-echo 'Distro' 'IUseArchBTW'
 
 # ascii art
-#echo -e "        "
-#echo -e " (-_-) Sublime"
-#echo -e "        "
+echo -e "        "
+echo -e " $grn(-_-) Sublime"
+echo -e "        "
 
 # colors
 echo -e " $blk$rst $red$rst $grn$rst $blu$rst $ylw$rst $cyn$rst $prp$rst $bprp$rst"
