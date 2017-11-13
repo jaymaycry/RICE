@@ -1,7 +1,8 @@
 ## [i3-gaps] Sublime RICE Config
 
 
-![alt text](/img/scrot.png "Simple.")
+![alt text](/img/1.png "Fake Busy.")
+![alt text](/img/2.png "Empty Space.")
 
 ### ---------- Programs In Use ----------
 
