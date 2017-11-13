@@ -270,7 +270,7 @@ browser_sort_format = {%a - }{%t}|{%f} {(%l)}
 ##   available.
 ##
 #
-song_columns_list_format = (75)[white]{t|f:Title}(20)[red]{a}
+song_columns_list_format = (75)[green]{t|f:Title}(20)[red]{a}
 #
 ##### various settings #####
 #
@@ -278,7 +278,7 @@ song_columns_list_format = (75)[white]{t|f:Title}(20)[red]{a}
 ## Note: Custom command that will be executed each time song changes. Useful for
 ## notifications etc.
 ##
-execute_on_song_change = "~/rice/scripts/notifications/ncmpcpp"
+#execute_on_song_change = "~/rice/scripts/mnuc"
 #
 ##
 ## Note: Custom command that will be executed each time player state
@@ -396,7 +396,7 @@ cyclic_scrolling = yes
 ## media_library, playlist_editor, tag_editor, outputs, visualizer, clock,
 ## lyrics, last_fm.
 ##
-#screen_switcher_mode = playlist, browser
+screen_switcher_mode = playlist, browser
 #
 ##
 ## Note: You can define startup screen by choosing screen from the list above.
@@ -427,9 +427,9 @@ cyclic_scrolling = yes
 #
 #display_volume_level = yes
 #
-#display_bitrate = no
+display_bitrate = no
 #
-#display_remaining_time = no
+display_remaining_time = no
 #
 ## Available values: none, basic, extended, perl.
 ##
@@ -480,7 +480,7 @@ cyclic_scrolling = yes
 #
 #search_engine_default_search_mode = 1
 #
-#external_editor = nano
+external_editor = nvim 
 #
 ## Note: set to yes if external editor is a console application.
 ##

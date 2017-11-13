@@ -5,40 +5,40 @@
 ! special
 *.foreground:   #dfdfdf
 *.background:   #070e14
-*.cursorColor:  #26a98b
+*.cursorColor:  #dfdfdf
 
 ! black
-!*.color0:       #070e14
-*.color0:       #070e14
+*.color0:       #0d1a26
 *.color8:       #25374a
 
 ! red
-*.color1:       #c33027
-*.color9:       #c33027
+*.color1:       #dc322f
+*.color9:       #dc322f
 
 ! green
-*.color2:       #26a98b
-*.color10:      #26a98b
+*.color2:       #a2ba00
+*.color10:      #a2ba00
 
 ! yellow
-*.color3:       #edb54b
-*.color11:      #edb54b
+*.color3:       #efb500
+*.color11:      #efb500
 
 ! blue
-*.color4:       #195465
-*.color12:      #195465
+*.color4:       #268bd2
+*.color12:      #268bd2
 
 ! magenta
-*.color5:       #787c9b
-*.color13:      #787c9b
+*.color5:       #d33682
+*.color13:      #d33682
 
 ! cyan
-*.color6:       #33859d
-*.color14:      #33859d
+*.color6:       #32beb3
+*.color14:      #32beb3
 
 ! white
 *.color7:       #dfdfdf
 *.color15:      #dfdfdf
+
 
 !##########################################
 !#                   Rofi                 #
@@ -55,7 +55,7 @@ rofi.color-urgent:      #070e14, #ffffff, argb:00333333, #070e14, #26a98b
 rofi.color-active:      #070e14, #ffffff, argb:00333333, #070e14, #26a98b
 rofi.separator-style:   solid
 rofi.fullscreen:        false
-rofi.padding:           20
+ofi.padding:           20
 rofi.lines:             5
 rofi.hide-scrollbar:    true
 rofi.line-margin:       5
@@ -64,7 +64,7 @@ rofi.yoffset:           0
 rofi.xoffset:           0
 rofi.width:             300
 rofi.opacity:           90
-rofi.font:              Shure\ Tech\ Mono\ Nerd\ Font 14
+rofi.font:              Hack 14
 
 !##########################################
 !#                 URxvt                  #
@@ -88,19 +88,19 @@ URxvt.copyCommand:  xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 
 ! Keybindings
-URxvt.keysym.Mod4-c: perl:clipboard:copy
-URxvt.keysym.Mod4-v: perl:clipboard:paste
-URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-c: perl:clipboard:copy
-URxvt.keysym.M-v: perl:clipboard:paste
-URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.C-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-u: perl:url-select:select_next
+!URxvt.keysym.Mod4-c: perl:clipboard:copy
+!URxvt.keysym.Mod4-v: perl:clipboard:paste
+!URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
+!URxvt.keysym.M-c: perl:clipboard:copy
+!URxvt.keysym.M-v: perl:clipboard:paste
+!URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+!URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!URxvt.keysym.C-Escape: perl:keyboard-select:activate
+!URxvt.keysym.M-u: perl:url-select:select_next
 
 !URxvt.font: xft:Roboto Mono Nerd Font:style=Regular:size=14
 !URxvt.boldFont: xft:Roboto Mono Nerd Font:style=Regular:size=14
-URxvt*font: xft:Roboto Mono Nerd Font:size=14
+URxvt*font: xft:Hack:size=14
 URxvt*lineSpace: 0
 URxvt*.letterSpace: 0
 !##########################################

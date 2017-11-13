@@ -119,7 +119,7 @@ makepkg -si
 ########################################################
 
 echo Installing AUR Packages
-yaourt -S rxvt-unicode-patched firefox-nightly woeusb-giti3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock filebot --noconfirm
+yaourt -S rxvt-unicode-patched unclutter-xfixes-git firefox-nightly woeusb-giti3-gaps polybar ttf-font-awesome siji-git mpd-git ncmpcpp-git cava python-pywal-git torrench arch-wiki-cli oomox-git tty-clock filebot --noconfirm
 
 ########################################################
 #                       Updates                        #

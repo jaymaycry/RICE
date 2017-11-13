@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo chown -R sublime:users /mnt/data && sudo chown -R sublime:users /mnt/media && sudo chown -R sublime:users /mnt/media2

@@ -45045,3 +45045,1185 @@ Nov 10 01:35 : player: played "Chance_the_Rapper-Coloring_Book/Chance the Rapper
 Nov 10 22:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Nov 10 22:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Nov 10 22:31 : player: played "SremmLife/05 This Could Be Us.mp3"
+Nov 10 22:39 : player: played "Future - HNDRXX (2017) Mp3 320Kbps Groo/17 Sorry.mp3"
+Nov 10 22:41 : player: played "Kanye West – The Life Of Pablo (T.L.O.P.) 2016/05. Kanye West - Feedback.mp3"
+Nov 10 22:45 : exception: Failed to play on "pulse audio" (pulse): suspended
+xcb_connection_has_error() returned true
+Nov 10 22:45 : exception: Failed to open "pulse audio" (pulse)
+Nov 10 22:45 : exception: nested: failed to connect: Connection terminated
+Nov 10 22:45 : player: played "The Weeknd - Starboy (2016)/12 A Lonely Night.mp3"
+Nov 10 22:45 : avahi: Client Disconnected, will reconnect shortly
+Nov 10 22:45 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Nov 10 22:45 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 10 22:45 : player: played "Painting Pictures/08 Save You.mp3"
+Nov 12 11:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 11:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 11:08 : player: played "Linkin Park - Hybrid Theory (2000)/12 Pushing Me Away.mp3"
+Nov 12 11:12 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/50. XXXTENTACION - Jocelyn Flores.mp3"
+Nov 12 11:13 : player: played "The Weeknd - Starboy (2016)/02 Party Monster.mp3"
+Nov 12 11:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 11:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 11:24 : player: played "J Cole - 4 Your Eyez Only (2016) Full Album Mp3 320Kbps Groo/07 Neighbors.mp3"
+Nov 12 11:30 : player: played "Drake - More Life [2017]/9 Gyalchester.mp3"
+Nov 12 11:32 : player: played "Drake - More Life [2017]/10 Skepta Interlude.mp3"
+Nov 12 11:36 : player: played "Drake - More Life [2017]/11 Portland (feat. Quavo & Travi$ Scott).mp3"
+Nov 12 11:37 : exception: Failed to play on "pulse audio" (pulse): disconnected
+Nov 12 11:37 : player: played "Drake - More Life [2017]/12 Sacrifices (feat. 2 Chainz & Young Thug).mp3"
+Nov 12 12:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 12:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 12:57 : player: played "Drake - More Life [2017]/20 Fake Love.mp3"
+Nov 12 13:01 : player: played "Drake - More Life [2017]/21 Ice Melts (feat. Young Thug).mp3"
+Nov 12 13:06 : player: played "Drake - More Life [2017]/22 Do Not Disturb.mp3"
+Nov 12 13:10 : player: played "Drake - Take Care (Deluxe Version) [Official Album][CD-Rip]/01 Over My Dead Body (Feat. Chantal Kreviazuk).mp3"
+Nov 12 13:14 : player: played "Drake - Take Care (Deluxe Version) [Official Album][CD-Rip]/02 Shot For Me.mp3"
+Nov 12 13:17 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/71. Lil Pump - Gucci Gang.mp3"
+Nov 12 13:29 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/04 All Eyes On You (feat. Chris Brown & Nicki Minaj).mp3"
+Nov 12 13:33 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/06 R.I.C.O. (feat. Drake).mp3"
+Nov 12 13:36 : player: played "Meek Mill - Dreams Worth More Than Money (Explicit) 2015 {MP3 Album}~{VBUc}/07 I Got the Juice.mp3"
+Nov 12 13:41 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/02. Post Malone (feat. 21 Savage) - rockstar.mp3"
+Nov 12 13:49 : player: played "Kanye West - The College Dropout [Remastered] (2004) mp3@320 vtwin88cube/07.Jesus Walks.mp3"
+Nov 12 13:53 : player: played "Section.80/03 A.D.H.D.mp3"
+Nov 12 13:56 : player: played "Section.80/12 Rigamortus.mp3"
+Nov 12 14:00 : player: played "Section.80/14 Blow My High.mp3"
+Nov 12 14:05 : player: played "Section.80/16 HiiiPower.mp3"
+Nov 12 14:08 : player: played "Kevin Gates - By Any Means 2 (2017) (Mp3 320kbps) [Hunter]/Kevin Gates - By Any Means 2 (2017)/12 No Trust.mp3"
+Nov 12 14:14 : player: played "Kevin Gates - Islah (2016)/01. Not the Only One.mp3"
+Nov 12 14:22 : player: played "The Marshall Mathers LP/07 The Way I Am.mp3"
+Nov 12 14:26 : player: played "Lil Uzi Vert - Luv Is Rage 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Lil Uzi Vert - Luv Is Rage 2 (2017)/16 XO TOUR Llif3.mp3"
+Nov 12 14:33 : player: played "2014 Forest Hills Drive/11 Apparently.mp3"
+Nov 12 15:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 15:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 15:39 : player: played "2014 Forest Hills Drive/11 Apparently.mp3"
+Nov 12 16:52 : exception: Failed to pause "pulse audio" (pulse): failed to connect the stream: Connection terminated
+Nov 12 17:23 : avahi: Client Disconnected, will reconnect shortly
+Nov 12 17:23 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 12 17:23 : player: played "2014 Forest Hills Drive/12 Love Yourz.mp3"
+Nov 12 21:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 21:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 21:57 : flac: FLAC__STREAM_DECODER_ERROR_STATUS_LOST_SYNC
+Nov 12 21:58 : exception: Failed to play on "pulse audio" (pulse): suspended
+Nov 12 22:09 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/60. 2 Chainz - It's a Vibe (Ft. Ty Dolla Sign, Trey Songz & Jhene Aiko).mp3"
+Nov 12 22:12 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/78. Louis Tomlinson - Back to You (feat. Bebe Rexha & Digital Farm Animals).mp3"
+Nov 12 22:20 : player: played "Linkin Park - Hybrid Theory (2000)/09 A Place for My Head.mp3"
+Nov 12 22:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Nov 12 22:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: channel element 0.0 is not allocated
+Nov 12 22:20 : ffmpeg: avcodec_send_packet() failed: Invalid data found when processing input
+Nov 12 22:20 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Nov 12 22:20 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Nov 12 22:20 : ffmpeg/aac: Could not update timestamps for skipped samples.
+Nov 12 22:28 : player: played "Tory Lanez - I Told You (2016)/11-tory_lanez-loners_blvd.mp3"
+Nov 12 22:32 : player: played "Tory Lanez - I Told You (2016)/12-tory_lanez-all_the_girls.mp3"
+Nov 12 22:37 : player: played "Tory Lanez - I Told You (2016)/13-tory_lanez-say_it.mp3"
+Nov 12 22:41 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/97. G-Eazy - No Limit.mp3"
+Nov 12 22:45 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/07. Order More (feat. Starrah).mp3"
+Nov 12 22:47 : player: played "G-Eazy - When Its Dark Out [2015] [MP3-320KBPS] [H4CKUS] [GloDLS]/08. Calm Down.mp3"
+Nov 12 22:56 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/59. Kodak Black - Roll in Peace (feat. XXXTENTACION).mp3"
+Nov 12 23:01 : player: played "Kodak Black - Projects Baby 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Kodak Black - Projects Baby 2 (2017)/14 Pride.mp3"
+Nov 12 23:04 : player: played "Kodak Black - Projects Baby 2 (2017) (Mp3 320kbps) [Hunter] SSEC/Kodak Black - Projects Baby 2 (2017)/15 Up Late.mp3"
+Nov 12 23:08 : exception: Failed to open /home/sublime/.mpd/playlists: No such file or directory
+Nov 12 23:08 : exception: Failed to open /home/sublime/.mpd/playlists: No such file or directory
+Nov 12 23:14 : player: played "Billboard Hot 100 Singles Chart (7th Oct 2017) (Mp3 320kbps) [Hunter]/Billboard Hot 100 Singles Chart (7th Oct 2017)/02. Post Malone (feat. 21 Savage) - rockstar.mp3"

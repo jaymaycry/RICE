@@ -9,11 +9,11 @@ export ZSH=/home/sublime/.oh-my-zsh
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="kardan"
 ZSH_THEME="sublime"
-ENABLE_CORRECTION="false"
+ENABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(completion git sudo last-working-dir lol copydir copyfile autojump history)
+plugins=(completion git sudo lol copydir copyfile autojump history)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -66,6 +66,7 @@ source $ZSH/oh-my-zsh.sh
 #POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 #POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
 #POWERLEVEL9K_PROMPT_ADD_NEWLINE=false
+
 # =============================================================================
 #                                   Plugins
 # =============================================================================

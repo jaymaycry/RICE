@@ -22,7 +22,7 @@ class Default(ColorScheme):
 				fg = green
 			if context.media:
 				if context.image:
-					fg = white
+					fg = yellow
 				else:
 					fg = white
 			if context.container:
@@ -35,7 +35,7 @@ class Default(ColorScheme):
 					any((context.media, context.container,
 						context.fifo, context.socket)):
 				attr |= normal
-				fg = red
+				fg = cyan
 			if context.socket:
 				fg = white
 			if context.fifo or context.device:

@@ -20,7 +20,7 @@ exec --no-startup-id polybar -r top & polybar -r bottom &
 exec --no-startup-id compton --config ~/.compton.conf -b
 
 # Launch Unclutter to hide the mouse when not in use
-exec --no-startup-id unclutter &
+exec --no-startup-id unclutter --timeout 1 &
 
 # Set the cursor
 exec --no-startup-id xsetroot -cursor_name left_ptr
@@ -32,10 +32,10 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg25.jpg
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg4.jpg
 
 # Start blurme for dynamic wallpaper bluring
-#exec --no-startup-id ~/rice/scripts/blurme
+exec --no-startup-id ~/rice/scripts/blurme &
 
 # Disable Screen Timeout
 exec --no-startup-id xset s off
@@ -56,7 +56,7 @@ exec i3-msg workspace1
 #=======================================================================
 
 # lock screen
-bindsym $mod+Shift+x exec ~/rice/scripts/lock/lock
+bindsym $mod+Shift+x exec ~/rice/scripts/lock.sh
 
 # PCmanfm
 bindsym $mod+Shift+f exec pcmanfm
