@@ -5,7 +5,7 @@ static char * top_right_active_xpm[] = {
 <<<<<<< HEAD
 ".	c #dfdfdf",
 "+	c #dfdfdf",
-"@	c #0e1218",
+"@	c #0d1a26",
 =======
 ".	c #484848",
 "+	c #343434",

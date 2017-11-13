@@ -5,13 +5,13 @@
 // default color scheme
 $bg_color: if($variant == "dark", #dfdfdf, #070e14);
 $fg_color: if($variant == "dark", #070e14, #dfdfdf);
-$base_color: if($variant == "dark", #dfdfdf, #0e1218);
-$text_color: if($variant == "dark", #0e1218, #dfdfdf);
-$button_bg_color: if($variant == "dark", #dfdfdf, #0e1218);
-$button_fg_color: if($variant == "dark", #0e1218, #dfdfdf);
-$header_button_bg_color: #26A98B;
+$base_color: if($variant == "dark", #dfdfdf, #0d1a26);
+$text_color: if($variant == "dark", #0d1a26, #dfdfdf);
+$button_bg_color: if($variant == "dark", #dfdfdf, #0d1a26);
+$button_fg_color: if($variant == "dark", #0d1a26, #dfdfdf);
+$header_button_bg_color: #a2ba00;
 $header_button_fg_color: #dfdfdf;
-$selected_bg_color: #26A98B;
+$selected_bg_color: #a2ba00;
 $selected_fg_color: #ffffff;
 $tooltip_bg_color: #070e14;
 $tooltip_fg_color: #dfdfdf;
@@ -23,7 +23,7 @@ $borders_color: if($variant == 'light', mix($bg_color, $fg_color, .08), shade($b
 $borders_edge: if($variant == 'light', transparentize(white, 0.2), transparentize($fg_color, 0.93));
 
 // dark colors
-$dark_bg_color: #0e1218;
+$dark_bg_color: #0d1a26;
 $dark_fg_color: #dfdfdf;
 
 // shadows
@@ -102,7 +102,7 @@ $lightdm_bg_color: $dark_bg_color;
 $lightdm_fg_color: $dark_fg_color;
 
 $wm_bg: $titlebar_bg_color;
-$wm_border_focused: #3E9688;
+$wm_border_focused: #a2ba00;
 $wm_border_unfocused: #031A16;
 $wm_title_focused: mix($titlebar_fg_color, $titlebar_bg_color, .1);
 $wm_title_unfocused: mix($titlebar_fg_color, $titlebar_bg_color, .4);

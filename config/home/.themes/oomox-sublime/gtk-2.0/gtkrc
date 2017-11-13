@@ -1,7 +1,7 @@
 # Oomox GTK Theme (Numix Fork)
 
 gtk-color-scheme =
-"base_color:#0e1218\nbg_color:#070e14\ntooltip_bg_color:#070e14\nselected_bg_color:#26A98B\ntext_color:#dfdfdf\nfg_color:#dfdfdf\ntooltip_fg_color:#dfdfdf\nselected_fg_color:#ffffff\nmenubar_bg_color:#0e1218\nmenubar_fg_color:#dfdfdf\ntoolbar_bg_color:#070e14\ntoolbar_fg_color:#dfdfdf\nmenu_bg_color:#0e1218\nmenu_fg_color:#dfdfdf\npanel_bg_color:#070e14\npanel_fg_color:#dfdfdf\nlink_color:#26A98B\nbtn_bg_color:#0e1218\nbtn_fg_color:#dfdfdf\ntitlebar_bg_color:#0e1218\ntitlebar_fg_color:#dfdfdf\n"
+"base_color:#0d1a26\nbg_color:#070e14\ntooltip_bg_color:#070e14\nselected_bg_color:#a2ba00\ntext_color:#dfdfdf\nfg_color:#dfdfdf\ntooltip_fg_color:#dfdfdf\nselected_fg_color:#ffffff\nmenubar_bg_color:#0d1a26\nmenubar_fg_color:#dfdfdf\ntoolbar_bg_color:#070e14\ntoolbar_fg_color:#dfdfdf\nmenu_bg_color:#0d1a26\nmenu_fg_color:#dfdfdf\npanel_bg_color:#070e14\npanel_fg_color:#dfdfdf\nlink_color:#a2ba00\nbtn_bg_color:#0d1a26\nbtn_fg_color:#dfdfdf\ntitlebar_bg_color:#0d1a26\ntitlebar_fg_color:#dfdfdf\n"
 # Default Style
 
 style "murrine-default" {

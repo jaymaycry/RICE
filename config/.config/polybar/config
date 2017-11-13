@@ -284,7 +284,7 @@ type = custom/menu
 format-spacing = 1
 
 label-open = " "
-label-open-foreground = ${colors.foreground-alt}
+label-open-foreground = #dc322f
 label-close =  Cancel
 label-close-foreground = ${colors.foreground-alt}
 label-separator = |

@@ -3,7 +3,7 @@ static char * stick_active_xpm[] = {
 "24 26 4 1",
 " 	c None",
 <<<<<<< HEAD
-".	c #0e1218",
+".	c #0d1a26",
 "+	c #dfdfdf",
 =======
 ".	c #444444",
