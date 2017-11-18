@@ -1,11 +1,25 @@
 #!/bin/bash
 
 ########################################################
+#                    Base Install                      #
+########################################################
+# mount /dev/sda2 /mnt
+# mkdir -p /mnt/boot && mount /dev/sda1 /mnt/boot
+# pacstrap /mnt base base-devel
+# genfstab -U -p /mnt >> /mnt/etc/fstab
+# sed -i -e "s|rw,relatime,data=ordered|rw,relatime,data=ordered,discard|g" /etc/fstab
+# arch-chroot /mnt
+# echo mac > /etc/hostname
+
+########################################################
 #                       Locale                         #
 ########################################################
 
 echo Setting Locale
-sudo localedef -f UTF-8 -i en_US en_US.UTF-8
+sed -i -e "s|#en_US.UTF-8 UTF-8|en_US.UTF-8 UTF-8|g" /etc/locale.gen
+sed -i -e "s|#de_CH.UTF-8 UTF-8|de_CH.UTF-8 UTF-8|g" /etc/locale.gen
+locale-gen
+echo LANG=en_US.UTF-8 > /etc/locale.conf
 
 ########################################################
 #                     Update System                    #
@@ -17,19 +31,21 @@ sudo pacman -Syu --noconfirm
 #                         Network                      #
 ########################################################
 
-echo Setting Up Network
-sudo systemctl enable dhcpcd@enp0s31f6.service
-sudo systemctl start dhcpcd@enp0s31f6.service
+# echo Setting Up Network
+# sudo systemctl enable dhcpcd@enp0s31f6.service
+# sudo systemctl start dhcpcd@enp0s31f6.service
 
-sudo pacman -S ifplugd --noconfirm
-#replace enp3s0 with the identifier of your network interface.
-sudo systemctl enable netctl-ifplugd@enp0s31f6.service
-sudo systemctl start netctl-ifplugd@enp0s31f6.service
+# sudo pacman -S ifplugd --noconfirm
+# #replace enp3s0 with the identifier of your network interface.
+# sudo systemctl enable netctl-ifplugd@enp0s31f6.service
+# sudo systemctl start netctl-ifplugd@enp0s31f6.service
 
 ########################################################
 #                         Time                         #
 ########################################################
-
+rm /etc/localtime
+ln -s /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+hwclock --systohc --utc
 sudo pacman -S ntp --noconfirm
 sudo systemctl enable ntpd.service
 sudo systemctl enable ntpdate.service
@@ -39,7 +55,7 @@ sudo systemctl enable ntpdate.service
 ########################################################
 
 echo Installing Base Programs
-sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod rtorrent syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi  libmpdclient --noconfirm
+sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi  libmpdclient --noconfirm
 
 i3lock scrot rhash cmake lib32-dbus
 
@@ -53,7 +69,7 @@ mousepad
 Sudo pacman -S mpv mpc 
 
 
-Sudo pacman -S wine wine_gecko wine-mono
+# Sudo pacman -S wine wine_gecko wine-mono
 
 
 Sudo pacman -S unrar p7zip rsync xarchiver pcmanfm ranger unzip zip
@@ -98,8 +114,8 @@ sudo pacman -S a52dec x264 x265 faac faad2 flac jasper lame libdca libdv libmad 
 #                   Video Drivers                      #
 ########################################################
 
-echo Installing Video Drivers
-sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl --noconfirm
+# echo Installing Video Drivers
+# sudo pacman -S xf86-video-vesa xf86-video-ati mesa mesa-libgl lib32-mesa lib32-mesa-libgl --noconfirm
 
 ########################################################
 #                       Yaourt                         #
@@ -131,19 +147,19 @@ sudo pacman -Syu
 #                    Mount Points                      #
 ########################################################
 
-echo Creating Mount Folders Media, Media2, Data
-sudo mkdir /mnt/media
-sudo mkdir /mnt/media2
-sudo mkdir /mnt/data
-sudo mkdir /mnt/usb
+# echo Creating Mount Folders Media, Media2, Data
+# sudo mkdir /mnt/media
+# sudo mkdir /mnt/media2
+# sudo mkdir /mnt/data
+# sudo mkdir /mnt/usb
 
 ########################################################
 #                    Git Identity                      #
 ########################################################
 
 echo Setting Up Git Identity
-git config --global user.name "Kory Freese"
-git config --global user.email koryfreese@gmail.com
+git config --global user.name "Jay Péclard"
+git config --global user.email jay.peclard@gmail.com
 
 ########################################################
 #                Disable Screen Timeout                #
@@ -157,6 +173,6 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \ https://raw
 
 # Mouse
 
-sudo pacman -S python-pyside --noconfirm
-yaourt -S razercfg-git --noconfirm
-sudo systemctl enable razerd.service
+# sudo pacman -S python-pyside --noconfirm
+# yaourt -S razercfg-git --noconfirm
+# sudo systemctl enable razerd.service
