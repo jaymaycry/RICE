@@ -55,7 +55,7 @@ sudo systemctl enable ntpdate.service
 ########################################################
 
 echo Installing Base Programs
-sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi  libmpdclient --noconfirm
+sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi libmpdclient polybar compton i3lock --noconfirm
 
 i3lock scrot rhash cmake lib32-dbus
 
@@ -72,22 +72,22 @@ Sudo pacman -S mpv mpc
 # Sudo pacman -S wine wine_gecko wine-mono
 
 
-Sudo pacman -S unrar p7zip rsync xarchiver pcmanfm ranger unzip zip
+Sudo pacman -S unrar p7zip rsync xarchiver pcmanfm ranger unzip zip --noconfirm
 
 
-Sudo pacman -S lxappearance ttf-roboto ttf-symbola ttf-font-awesome 
+Sudo pacman -S lxappearance ttf-roboto ttf-symbola ttf-font-awesome ttf-meslo system-san-francisco-font-git --noconfirm
 
 
-Sudo pacman -S pavucontrol pulseaudio alsa-utils 
+Sudo pacman -S pavucontrol pulseaudio alsa-utils --noconfirm
 
 
-Sudo pacman -S fortune-mod 
+Sudo pacman -S fortune-mod --noconfirm
 
 
-sudo pacman -S neovim 
+sudo pacman -S neovim --noconfirm
 
 
-sudo pacman -S java-openjfx 
+sudo pacman -S java-openjfx --noconfirm
 
 
 
