@@ -4,11 +4,12 @@ export DEFAULT_USER="sublime"
 export LANG=en_US.UTF-8
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/sublime/.oh-my-zsh
+export ZSH=/home/jay/.oh-my-zsh
 
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME="kardan"
-ZSH_THEME="sublime"
+#ZSH_THEME="sublime"
+ZSH_THEME="agnoster"
 ENABLE_CORRECTION="true"
 
 COMPLETION_WAITING_DOTS="true"

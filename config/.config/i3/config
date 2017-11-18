@@ -32,7 +32,7 @@ exec --no-startup-id dunst -config ~/.config/dunst/config &
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 # Set the wallpaper
-exec --no-startup-id feh --bg-scale ~/rice/bg/bg4.jpg
+exec --no-startup-id feh --bg-scale ~/rice/bg/bg25.jpg
 
 # Start blurme for dynamic wallpaper bluring
 exec --no-startup-id ~/rice/scripts/blurme &

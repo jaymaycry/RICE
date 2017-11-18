@@ -21,7 +21,7 @@ set $mail icedove
 font pango:envypn 11
 exec --no-startup-id nm-applet
 #My background is always in ~/.config/wall.png. I have a shortcut in my file manager (ranger) that will automatically move a selected file here, so I can change by background on the go.
-exec_always --no-startup-id feh --bg-scale ~/.config/wall.png
+exec_always --no-startup-id feh --bg-scale ~/.config/wall.jpg
 
 
 bar {

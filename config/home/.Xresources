@@ -98,11 +98,12 @@ URxvt.pasteCommand: xclip -o -selection clipboard
 !URxvt.keysym.C-Escape: perl:keyboard-select:activate
 !URxvt.keysym.M-u: perl:url-select:select_next
 
-URxvt.font: xft:Roboto Mono Nerd Font:style=Regular:size=14
+URxvt.font: xft:Meslo LG M for Powerline:style=Regular:size=14
 !URxvt.boldFont: xft:Roboto Mono Nerd Font:style=Regular:size=14
 !URxvt*font: xft:Hack:size=14
 URxvt*lineSpace: 0
 URxvt*.letterSpace: 0
+URxvt.background: rgb:2c/2c/2c
 !##########################################
 !#                 Xterm                  #
 !##########################################
