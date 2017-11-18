@@ -2,7 +2,7 @@
 #                             Startup Programs
 #=======================================================================
 
-set $mod Mod1
+set $mod Mod4
 
 # Set the screen refresh rate to 144hz
 exec --no-startup-id xrandr -r 144
