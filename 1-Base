@@ -15,17 +15,17 @@
 #                       Locale                         #
 ########################################################
 
-echo Setting Locale
-sed -i -e "s|#en_US.UTF-8 UTF-8|en_US.UTF-8 UTF-8|g" /etc/locale.gen
-sed -i -e "s|#de_CH.UTF-8 UTF-8|de_CH.UTF-8 UTF-8|g" /etc/locale.gen
-locale-gen
-echo LANG=en_US.UTF-8 > /etc/locale.conf
+#echo Setting Locale
+#sed -i -e "s|#en_US.UTF-8 UTF-8|en_US.UTF-8 UTF-8|g" /etc/locale.gen
+#sed -i -e "s|#de_CH.UTF-8 UTF-8|de_CH.UTF-8 UTF-8|g" /etc/locale.gen
+#locale-gen
+#echo LANG=en_US.UTF-8 > /etc/locale.conf
 
 ########################################################
 #                     Update System                    #
 ########################################################
 
-sudo pacman -Syu --noconfirm
+#sudo pacman -Syu --noconfirm
 
 ########################################################
 #                         Network                      #
@@ -43,9 +43,9 @@ sudo pacman -Syu --noconfirm
 ########################################################
 #                         Time                         #
 ########################################################
-rm /etc/localtime
-ln -s /usr/share/zoneinfo/Zone/SubZone /etc/localtime
-hwclock --systohc --utc
+#rm /etc/localtime
+#ln -s /usr/share/zoneinfo/Zone/SubZone /etc/localtime
+#hwclock --systohc --utc
 sudo pacman -S ntp --noconfirm
 sudo systemctl enable ntpd.service
 sudo systemctl enable ntpdate.service
@@ -55,7 +55,7 @@ sudo systemctl enable ntpdate.service
 ########################################################
 
 echo Installing Base Programs
-sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi libmpdclient polybar compton i3lock --noconfirm
+sudo pacman -S klavaro neovim  jsoncpp  udisks2  perl-anyevent-i3 fortune-mod syncthing  w3m  htop cmatrix openssh  feh libreoffice-fresh gparted net-tools git   rofi  libmpdclient --noconfirm
 
 i3lock scrot rhash cmake lib32-dbus
 
@@ -72,22 +72,22 @@ Sudo pacman -S mpv mpc
 # Sudo pacman -S wine wine_gecko wine-mono
 
 
-Sudo pacman -S unrar p7zip rsync xarchiver pcmanfm ranger unzip zip --noconfirm
+Sudo pacman -S unrar p7zip rsync xarchiver pcmanfm ranger unzip zip
 
 
-Sudo pacman -S lxappearance ttf-roboto ttf-symbola ttf-font-awesome ttf-meslo system-san-francisco-font-git --noconfirm
+Sudo pacman -S lxappearance ttf-roboto ttf-symbola ttf-font-awesome 
 
 
-Sudo pacman -S pavucontrol pulseaudio alsa-utils --noconfirm
+Sudo pacman -S pavucontrol pulseaudio alsa-utils 
 
 
-Sudo pacman -S fortune-mod --noconfirm
+Sudo pacman -S fortune-mod 
 
 
-sudo pacman -S neovim --noconfirm
+sudo pacman -S neovim 
 
 
-sudo pacman -S java-openjfx --noconfirm
+sudo pacman -S java-openjfx 
 
 
 
